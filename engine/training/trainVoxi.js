@@ -23,7 +23,7 @@ const morningGreeting = require("../../intents/greetings/morning/morning")
 
 morningGreeting.forEach(greeting => {
     
-    voxi.addDocument(greeting.language,greeting.uterance,greeting.intent)
+    voxi.addDocument(greeting.language,greeting.utterance,greeting.intent)
 })
 
 /**
@@ -33,7 +33,7 @@ morningGreeting.forEach(greeting => {
 const morningReplies = require("../../intents/greetings/morning/morningReplies")
 
 morningReplies.forEach(morningreply => {
-    voxi.addAnswer(morningreply.language,morningreply.intent, morningreply.uterance)
+    voxi.addAnswer(morningreply.language,morningreply.intent, morningreply.utterance)
 })
 
 

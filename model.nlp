@@ -61,6 +61,54 @@
           "hey,morn": {
             "intent": "greeting.morning",
             "domain": "default"
+          },
+          "and,rise,shine": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "a,beauti,morn,to,you": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "a,ahead,bright,day,wish,you": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "good,morn,sunshin": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "g,mate,morn": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "hello,is,it,morn,time": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "friend,good,morn,my": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "a,marvel,morn,wish,you": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "dawn,greet,the,with": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "and,shine,up,wake": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "a,bless,have,morn": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "good,love,morn,peopl": {
+            "intent": "greeting.morning",
+            "domain": "default"
           }
         },
         "intentDict": {
@@ -101,6 +149,66 @@
             "domain": "default",
             "utterance": "hey Morning",
             "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Rise and shine!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "A beautiful morning to you!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Wishing you a bright day ahead!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Good morning, sunshine!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "G'morning, mate!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hello, it's morning time!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Good morning, my friend!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Wishing you a marvelous morning!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Greetings with the dawn!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Wake up and shine!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Have a blessed morning!",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Good morning, lovely people!",
+            "intent": "greeting.morning"
           }
         ],
         "domains": {
@@ -122,7 +230,37 @@
               "bro": 1,
               "day": 1,
               "man": 1,
-              "hey": 1
+              "hey": 1,
+              "rise": 1,
+              "and": 1,
+              "shine": 1,
+              "a": 1,
+              "beauti": 1,
+              "to": 1,
+              "you": 1,
+              "wish": 1,
+              "bright": 1,
+              "ahead": 1,
+              "sunshin": 1,
+              "g": 1,
+              "mate": 1,
+              "hello": 1,
+              "it": 1,
+              "is": 1,
+              "time": 1,
+              "my": 1,
+              "friend": 1,
+              "marvel": 1,
+              "greet": 1,
+              "with": 1,
+              "the": 1,
+              "dawn": 1,
+              "wake": 1,
+              "up": 1,
+              "have": 1,
+              "bless": 1,
+              "love": 1,
+              "peopl": 1
             },
             "intents": {
               "greeting.morning": 1
@@ -134,7 +272,37 @@
                 "bro": 1,
                 "day": 1,
                 "man": 1,
-                "hey": 1
+                "hey": 1,
+                "rise": 1,
+                "and": 1,
+                "shine": 1,
+                "a": 1,
+                "beauti": 1,
+                "to": 1,
+                "you": 1,
+                "wish": 1,
+                "bright": 1,
+                "ahead": 1,
+                "sunshin": 1,
+                "g": 1,
+                "mate": 1,
+                "hello": 1,
+                "it": 1,
+                "is": 1,
+                "time": 1,
+                "my": 1,
+                "friend": 1,
+                "marvel": 1,
+                "greet": 1,
+                "with": 1,
+                "the": 1,
+                "dawn": 1,
+                "wake": 1,
+                "up": 1,
+                "have": 1,
+                "bless": 1,
+                "love": 1,
+                "peopl": 1
               }
             },
             "featuresToIntent": {
@@ -154,6 +322,96 @@
                 "greeting.morning"
               ],
               "hey": [
+                "greeting.morning"
+              ],
+              "rise": [
+                "greeting.morning"
+              ],
+              "and": [
+                "greeting.morning"
+              ],
+              "shine": [
+                "greeting.morning"
+              ],
+              "a": [
+                "greeting.morning"
+              ],
+              "beauti": [
+                "greeting.morning"
+              ],
+              "to": [
+                "greeting.morning"
+              ],
+              "you": [
+                "greeting.morning"
+              ],
+              "wish": [
+                "greeting.morning"
+              ],
+              "bright": [
+                "greeting.morning"
+              ],
+              "ahead": [
+                "greeting.morning"
+              ],
+              "sunshin": [
+                "greeting.morning"
+              ],
+              "g": [
+                "greeting.morning"
+              ],
+              "mate": [
+                "greeting.morning"
+              ],
+              "hello": [
+                "greeting.morning"
+              ],
+              "it": [
+                "greeting.morning"
+              ],
+              "is": [
+                "greeting.morning"
+              ],
+              "time": [
+                "greeting.morning"
+              ],
+              "my": [
+                "greeting.morning"
+              ],
+              "friend": [
+                "greeting.morning"
+              ],
+              "marvel": [
+                "greeting.morning"
+              ],
+              "greet": [
+                "greeting.morning"
+              ],
+              "with": [
+                "greeting.morning"
+              ],
+              "the": [
+                "greeting.morning"
+              ],
+              "dawn": [
+                "greeting.morning"
+              ],
+              "wake": [
+                "greeting.morning"
+              ],
+              "up": [
+                "greeting.morning"
+              ],
+              "have": [
+                "greeting.morning"
+              ],
+              "bless": [
+                "greeting.morning"
+              ],
+              "love": [
+                "greeting.morning"
+              ],
+              "peopl": [
                 "greeting.morning"
               ]
             },
@@ -175,20 +433,80 @@
                 "bro",
                 "day",
                 "man",
-                "hey"
+                "hey",
+                "rise",
+                "and",
+                "shine",
+                "a",
+                "beauti",
+                "to",
+                "you",
+                "wish",
+                "bright",
+                "ahead",
+                "sunshin",
+                "g",
+                "mate",
+                "hello",
+                "it",
+                "is",
+                "time",
+                "my",
+                "friend",
+                "marvel",
+                "greet",
+                "with",
+                "the",
+                "dawn",
+                "wake",
+                "up",
+                "have",
+                "bless",
+                "love",
+                "peopl"
               ],
               "intents": [
                 "greeting.morning"
               ],
               "perceptrons": [
                 [
-                  0.21903693675994873,
-                  8.094243049621582,
-                  0.029152559116482735,
-                  3.9898691177368164,
-                  3.9898691177368164,
-                  0.17221549153327942,
-                  6.043809095225217
+                  0.33307844400405884,
+                  6.623160362243652,
+                  0.10695237666368484,
+                  3.801633358001709,
+                  2.729823350906372,
+                  0.2685590386390686,
+                  1.7284520864486694,
+                  2.592615842819214,
+                  2.592615842819214,
+                  0.2821381688117981,
+                  -0.13650476932525635,
+                  -0.13650476932525635,
+                  0.26929956674575806,
+                  0.4068402349948883,
+                  1.0691603422164917,
+                  1.0691603422164917,
+                  -0.07085336744785309,
+                  0.1643085479736328,
+                  0.1643085479736328,
+                  0.07463740557432175,
+                  0.07463740557432175,
+                  0.07463740557432175,
+                  0.07463740557432175,
+                  -0.027528924867510796,
+                  -0.027528924867510796,
+                  -0.6620607972145081,
+                  1.7297101020812988,
+                  1.7297101020812988,
+                  1.7297101020812988,
+                  1.7297101020812988,
+                  0.8649625182151794,
+                  0.8649625182151794,
+                  0.0146493474021554,
+                  0.0146493474021554,
+                  -0.02327861450612545,
+                  -0.02327861450612545,
+                  7.373066964662383
                 ]
               ]
             }
@@ -225,6 +543,54 @@
       [
         "en",
         "hey Morning"
+      ],
+      [
+        "en",
+        "Rise and shine!"
+      ],
+      [
+        "en",
+        "A beautiful morning to you!"
+      ],
+      [
+        "en",
+        "Wishing you a bright day ahead!"
+      ],
+      [
+        "en",
+        "Good morning, sunshine!"
+      ],
+      [
+        "en",
+        "G'morning, mate!"
+      ],
+      [
+        "en",
+        "Hello, it's morning time!"
+      ],
+      [
+        "en",
+        "Good morning, my friend!"
+      ],
+      [
+        "en",
+        "Wishing you a marvelous morning!"
+      ],
+      [
+        "en",
+        "Greetings with the dawn!"
+      ],
+      [
+        "en",
+        "Wake up and shine!"
+      ],
+      [
+        "en",
+        "Have a blessed morning!"
+      ],
+      [
+        "en",
+        "Good morning, lovely people!"
       ]
     ]
   },
@@ -244,22 +610,232 @@
       "en": {
         "greeting.morning": [
           {
-            "answer": "Good Morning"
+            "answer": "Good morning to you too!"
           },
           {
-            "answer": "Yo, How can I help You Today?"
+            "answer": "Hello, have a great day!"
           },
           {
-            "answer": "Hello, Good Morning, How May I help You today"
+            "answer": "Thank you, and good morning!"
           },
           {
-            "answer": "Good Morning, How Was Your Night?"
+            "answer": "Wishing you a fantastic morning!"
           },
           {
-            "answer": "Hi, How are You Doing?"
+            "answer": "Morning vibes are the best!"
           },
           {
-            "answer": "What's Up"
+            "answer": "Hey, it's a beautiful morning!"
+          },
+          {
+            "answer": "Rise and shine with joy!"
+          },
+          {
+            "answer": "Thanks, I hope you have a wonderful day!"
+          },
+          {
+            "answer": "Good morning, my friend!"
+          },
+          {
+            "answer": "May your day be filled with sunshine!"
+          },
+          {
+            "answer": "Greetings with a smile!"
+          },
+          {
+            "answer": "Have an amazing morning!"
+          },
+          {
+            "answer": "Thank you, wishing you the same!"
+          },
+          {
+            "answer": "Good morning, have a splendid day!"
+          },
+          {
+            "answer": "Rise and greet the day with positivity!"
+          },
+          {
+            "answer": "Hello, have a blessed morning!"
+          },
+          {
+            "answer": "Thank you, and a happy morning to you!"
+          },
+          {
+            "answer": "Sending you warm morning wishes!"
+          },
+          {
+            "answer": "Have a lovely morning!"
+          },
+          {
+            "answer": "Good morning, may your day be magical!"
+          },
+          {
+            "answer": "Thank you, wishing you a wonderful morning!"
+          },
+          {
+            "answer": "Have a fantastic day ahead!"
+          },
+          {
+            "answer": "Hello, rise and conquer the day!"
+          },
+          {
+            "answer": "Good morning, enjoy the day!"
+          },
+          {
+            "answer": "Wishing you a peaceful morning!"
+          },
+          {
+            "answer": "Thank you, have a great morning too!"
+          },
+          {
+            "answer": "Greetings with a cup of coffee!"
+          },
+          {
+            "answer": "Have an awesome day!"
+          },
+          {
+            "answer": "Good morning, be awesome today!"
+          },
+          {
+            "answer": "Thank you, you too have a great morning!"
+          },
+          {
+            "answer": "Wishing you a day full of smiles!"
+          },
+          {
+            "answer": "Hello, have an incredible morning!"
+          },
+          {
+            "answer": "Good morning, let's make it a great day!"
+          },
+          {
+            "answer": "Thank you, have a splendid morning!"
+          },
+          {
+            "answer": "Have a productive day ahead!"
+          },
+          {
+            "answer": "Good morning, shine like the sun!"
+          },
+          {
+            "answer": "Thank you, a wonderful morning to you!"
+          },
+          {
+            "answer": "Wishing you a morning full of positivity!"
+          },
+          {
+            "answer": "Hello, may your morning be as bright as your smile!"
+          },
+          {
+            "answer": "Good morning, stay positive and happy!"
+          },
+          {
+            "answer": "Thank you, have an amazing morning!"
+          },
+          {
+            "answer": "Have a day filled with happiness and success!"
+          },
+          {
+            "answer": "Good morning, start your day with a positive attitude!"
+          },
+          {
+            "answer": "Thank you, have a wonderful morning!"
+          },
+          {
+            "answer": "Wishing you a morning full of inspiration!"
+          },
+          {
+            "answer": "Hello, have a refreshing morning!"
+          },
+          {
+            "answer": "Good morning, stay motivated and conquer your goals!"
+          },
+          {
+            "answer": "Thank you, have a fabulous morning!"
+          },
+          {
+            "answer": "Have a day filled with positivity and kindness!"
+          },
+          {
+            "answer": "Good morning, may your day be filled with positivity!"
+          },
+          {
+            "answer": "Thank you, have a beautiful morning!"
+          },
+          {
+            "answer": "Wishing you a morning filled with joy and excitement!"
+          },
+          {
+            "answer": "Hello, have a wonderful and productive day!"
+          },
+          {
+            "answer": "Good morning, stay focused and make the most of your day!"
+          },
+          {
+            "answer": "Thank you, have a bright and cheerful morning!"
+          },
+          {
+            "answer": "Have a day filled with new opportunities and success!"
+          },
+          {
+            "answer": "Good morning, may your day be filled with blessings!"
+          },
+          {
+            "answer": "Wishing you a morning filled with creativity and inspiration!"
+          },
+          {
+            "answer": "Hello, have a fantastic and energetic morning!"
+          },
+          {
+            "answer": "Good morning, stay positive and spread kindness!"
+          },
+          {
+            "answer": "Thank you, have a bright and exciting morning!"
+          },
+          {
+            "answer": "Have a day filled with positivity and optimism!"
+          },
+          {
+            "answer": "Good morning, stay focused and determined!"
+          },
+          {
+            "answer": "Thank you, have a productive and successful morning!"
+          },
+          {
+            "answer": "Have a day filled with love and happiness!"
+          },
+          {
+            "answer": "Good morning, may your day be filled with blessings and laughter!"
+          },
+          {
+            "answer": "Thank you, have a wonderful and inspiring morning!"
+          },
+          {
+            "answer": "Wishing you a morning filled with positivity and joy!"
+          },
+          {
+            "answer": "Hello, have a great and motivated morning!"
+          },
+          {
+            "answer": "Good morning, stay positive and embrace new challenges!"
+          },
+          {
+            "answer": "Thank you, have a fabulous and creative morning!"
+          },
+          {
+            "answer": "Have a day filled with positivity and gratitude!"
+          },
+          {
+            "answer": "Good morning, may your day be full of positivity and success!"
+          },
+          {
+            "answer": "Thank you, have a beautiful and peaceful morning!"
+          },
+          {
+            "answer": "Wishing you a morning filled with creativity and enthusiasm!"
+          },
+          {
+            "answer": "Hello, have a fantastic and optimistic morning!"
           }
         ]
       }
