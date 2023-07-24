@@ -34,64 +34,73 @@
           "useStemDict": true
         },
         "stemDict": {
-          "hello": {
-            "intent": "greeting",
-            "domain": "default"
-          },
-          "hi": {
-            "intent": "greeting",
-            "domain": "default"
-          },
-          "hey,you": {
-            "intent": "greeting",
-            "domain": "default"
-          },
-          "yo": {
-            "intent": "greeting",
-            "domain": "default"
-          },
           "good,morn": {
-            "intent": "greeting",
+            "intent": "greeting.morning",
             "domain": "default"
           },
-          "afternoon,good": {
-            "intent": "greeting",
+          "bro,good,morn": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "bro,morn": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "morn": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "day,good,man": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "bro,hey,morn": {
+            "intent": "greeting.morning",
+            "domain": "default"
+          },
+          "hey,morn": {
+            "intent": "greeting.morning",
             "domain": "default"
           }
         },
         "intentDict": {
-          "greeting": "default"
+          "greeting.morning": "default"
         },
         "sentences": [
           {
             "domain": "default",
-            "utterance": "hello",
-            "intent": "greeting"
+            "utterance": "Good Morning",
+            "intent": "greeting.morning"
           },
           {
             "domain": "default",
-            "utterance": "hi",
-            "intent": "greeting"
+            "utterance": "Good Morning Bro",
+            "intent": "greeting.morning"
           },
           {
             "domain": "default",
-            "utterance": "hey you",
-            "intent": "greeting"
+            "utterance": "Morning Bro",
+            "intent": "greeting.morning"
           },
           {
             "domain": "default",
-            "utterance": "yo",
-            "intent": "greeting"
+            "utterance": "Morning",
+            "intent": "greeting.morning"
           },
           {
             "domain": "default",
-            "utterance": "good morning",
-            "intent": "greeting"
+            "utterance": "Good Day Man",
+            "intent": "greeting.morning"
           },
           {
             "domain": "default",
-            "utterance": "good afternoon",
-            "intent": "greeting"
+            "utterance": "hey Morning bro",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey Morning",
+            "intent": "greeting.morning"
           }
         ],
         "domains": {
@@ -108,54 +117,44 @@
               "log": true
             },
             "features": {
-              "hello": 1,
-              "hi": 1,
-              "hey": 1,
-              "you": 1,
-              "yo": 1,
               "good": 1,
               "morn": 1,
-              "afternoon": 1
+              "bro": 1,
+              "day": 1,
+              "man": 1,
+              "hey": 1
             },
             "intents": {
-              "greeting": 1
+              "greeting.morning": 1
             },
             "intentFeatures": {
-              "greeting": {
-                "hello": 1,
-                "hi": 1,
-                "hey": 1,
-                "you": 1,
-                "yo": 1,
+              "greeting.morning": {
                 "good": 1,
                 "morn": 1,
-                "afternoon": 1
+                "bro": 1,
+                "day": 1,
+                "man": 1,
+                "hey": 1
               }
             },
             "featuresToIntent": {
-              "hello": [
-                "greeting"
-              ],
-              "hi": [
-                "greeting"
-              ],
-              "hey": [
-                "greeting"
-              ],
-              "you": [
-                "greeting"
-              ],
-              "yo": [
-                "greeting"
-              ],
               "good": [
-                "greeting"
+                "greeting.morning"
               ],
               "morn": [
-                "greeting"
+                "greeting.morning"
               ],
-              "afternoon": [
-                "greeting"
+              "bro": [
+                "greeting.morning"
+              ],
+              "day": [
+                "greeting.morning"
+              ],
+              "man": [
+                "greeting.morning"
+              ],
+              "hey": [
+                "greeting.morning"
               ]
             },
             "neuralNetwork": {
@@ -171,29 +170,25 @@
                 "log": true
               },
               "features": [
-                "hello",
-                "hi",
-                "hey",
-                "you",
-                "yo",
                 "good",
                 "morn",
-                "afternoon"
+                "bro",
+                "day",
+                "man",
+                "hey"
               ],
               "intents": [
-                "greeting"
+                "greeting.morning"
               ],
               "perceptrons": [
                 [
-                  4.521860599517822,
-                  4.61719274520874,
-                  2.3714351654052734,
-                  2.3714351654052734,
-                  4.573958396911621,
-                  3.1301770210266113,
-                  1.573150634765625,
-                  1.5620290040969849,
-                  9.617415717463308
+                  0.21903693675994873,
+                  8.094243049621582,
+                  0.029152559116482735,
+                  3.9898691177368164,
+                  3.9898691177368164,
+                  0.17221549153327942,
+                  6.043809095225217
                 ]
               ]
             }
@@ -205,27 +200,31 @@
     "extraSentences": [
       [
         "en",
-        "hello"
+        "Good Morning"
       ],
       [
         "en",
-        "hi"
+        "Good Morning Bro"
       ],
       [
         "en",
-        "hey you"
+        "Morning Bro"
       ],
       [
         "en",
-        "yo"
+        "Morning"
       ],
       [
         "en",
-        "good morning"
+        "Good Day Man"
       ],
       [
         "en",
-        "good afternoon"
+        "hey Morning bro"
+      ],
+      [
+        "en",
+        "hey Morning"
       ]
     ]
   },
@@ -243,18 +242,24 @@
     },
     "responses": {
       "en": {
-        "greeting": [
+        "greeting.morning": [
           {
-            "answer": "Hey!"
+            "answer": "Good Morning"
           },
           {
-            "answer": "Hey There"
+            "answer": "Yo, How can I help You Today?"
           },
           {
-            "answer": "Hi"
+            "answer": "Hello, Good Morning, How May I help You today"
           },
           {
-            "answer": "Yo whatsupp"
+            "answer": "Good Morning, How Was Your Night?"
+          },
+          {
+            "answer": "Hi, How are You Doing?"
+          },
+          {
+            "answer": "What's Up"
           }
         ]
       }
