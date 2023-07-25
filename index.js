@@ -1,22 +1,21 @@
 const express = require("express")
 const app = express()
-const chat = require("./routes")
+const chatRoute = require("./routes")
+const mongoose = require('mongoose')
 
 
 
-const sanitizeMessage = require("./inputPurify/inputPurify")
+const url = "mongodb://127.0.0.1:27017/voximind"
 
+// Database
 
-sanitizeMessage("How are you Doing?")
-
-
-
+mongoose.connect(url,{useNewUrlParser:true,useUnifiedTopology:true})
 
 // Middlewares
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json({ limit: "10mb" }))
 app.set("view engine", "ejs")
-app.use(chat)
+app.use(chatRoute)
 
 
 app.listen(3000, () => {
