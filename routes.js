@@ -24,7 +24,7 @@ router.post("/message/new", async (request, response) => {
 
         console.log(processMessage)
         
-        const userMessage = await Message.create({user:"collinsadi",message:message,negative: processMessage.sentiment.vote === "positive" ? false : true,sender:"user"})
+        const userMessage = await Message.create({user:"collinsadi",message:message,negative: processMessage.sentiment.vote === "negative" ? true : false,sender:"user"})
 
         const botMessage = await Message.create({user:"collinsadi",message:processMessage.answer || fallback, sender:"bot" })
     

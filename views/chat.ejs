@@ -115,6 +115,22 @@
         .send-button:hover {
             background-color: #0077b3; /* Slightly darker blue on hover */
         }
+
+        @media screen and (max-width: 600px) {
+            .chat-container {
+                margin: 20px auto;
+            }
+
+            .chat-bubble {
+                max-width: 90%;
+            }
+
+            .user-message,
+            .send-button {
+                padding: 8px;
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 
@@ -124,85 +140,61 @@
       <span class="sentiment-indicator positive">Positive</span>
       <p>Hello! I'm Voxi, your friendly chatbot. How can I assist you today?</p>
     </div>
-    <div class="chat-bubble user-bubble">
-      <span class="sentiment-indicator negative">Negative</span>
-      <p><span class="sent-tag">Sent:</span> I'm not happy with the service I received.</p>
-    </div>
-    <div class="chat-bubble bot-bubble">
-      <span class="sentiment-indicator negative">Negative</span>
-      <p>I'm sorry to hear that. Let's see if I can turn things around for you.</p>
-    </div>
-    <div class="chat-bubble user-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p><span class="sent-tag">Sent:</span> Thank you for your help! You're awesome!</p>
-    </div>
-    <div class="chat-bubble bot-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p>You're welcome! I'm always here to assist you.</p>
-    </div>
-    <div class="chat-bubble bot-bubble">
-      <span class="sentiment-indicator negative">Negative</span>
-      <p>I apologize for any inconvenience caused.</p>
-    </div>
-    <div class="chat-bubble user-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p><span class="sent-tag">Sent:</span> No problem at all! I appreciate your quick response.</p>
-    </div>
-    <div class="chat-bubble bot-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p>Thanks for your understanding. Is there anything else I can assist you with?</p>
-    </div>
-    <div class="chat-bubble user-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p><span class="sent-tag">Sent:</span> Can you recommend a good restaurant nearby?</p>
-    </div>
-    <div class="chat-bubble bot-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p>Sure! There's a lovely Italian restaurant called "La Trattoria" just a few blocks away. Their pasta is delicious!</p>
-    </div>
-    <div class="chat-bubble bot-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p>Let me know if you need more information or any other recommendations.</p>
-    </div>
-    <div class="chat-bubble user-bubble">
-      <span class="sentiment-indicator negative">Negative</span>
-      <p><span class="sent-tag">Sent:</span> I'm having trouble with the app. It keeps crashing.</p>
-    </div>
-    <div class="chat-bubble bot-bubble">
-      <span class="sentiment-indicator negative">Negative</span>
-      <p>I'm sorry to hear that you're experiencing issues. Let me investigate and get back to you with a solution.</p>
-    </div>
-    <div class="chat-bubble user-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p><span class="sent-tag">Sent:</span> Take your time. I appreciate your help.</p>
-    </div>
-    <div class="chat-bubble bot-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p>Thank you for your understanding. I'll get back to you as soon as I have more information.</p>
-    </div>
-    <div class="chat-bubble bot-bubble">
-      <span class="sentiment-indicator positive">Positive</span>
-      <p>Feel free to ask if you have any other questions or concerns.</p>
-    </div>
+   
+   
   </div>
    <div class="user-input">
         <input type="text" id="user-message" class="user-message" placeholder="Type your message here...">
-        <button class="send-button" onclick="">Send</button>
+        <button class="send-button" onclick="sendMessage()">Send</button>
     </div>
 </body>
 
 </html>
 
 <script>
-    function addChatBubble(sender, message) {
+
+     function addChatBubble(sender, message, sentiment) {
             const chatContainer = document.querySelector(".chat-container");
             const chatBubble = document.createElement("div");
             chatBubble.classList.add("chat-bubble");
             chatBubble.classList.add(sender === "user" ? "user-bubble" : "bot-bubble");
-            chatBubble.innerHTML = `
-                <p>${message}</p>
-            `;
+
+            const sentimentIndicator = document.createElement("span");
+            sentimentIndicator.classList.add("sentiment-indicator");
+            sentimentIndicator.classList.add(sentiment ? "negative" : "positive");
+            sentimentIndicator.innerText = sentiment ? "Negative" : "Positive";
+
+            const messageContent = document.createElement("p");
+            messageContent.innerHTML = `${sender === "user" ? '<span class ="sent-tag">Sent:</span>' : ""}`+ message;
+
+            chatBubble.appendChild(sentimentIndicator);
+            chatBubble.appendChild(messageContent);
             chatContainer.appendChild(chatBubble);
             chatContainer.scrollTop = chatContainer.scrollHeight;
         }
+
+    const sendMessage = async ()=>{
+
+        const message = document.getElementById("user-message")
+
+        const response = await fetch("/message/new", {
+            method:"POST",
+            headers:{
+                "content-type":"application/json"
+            },
+            body: JSON.stringify({message:message.value})
+        })
+
+
+        const data = await response.json()
+
+        // Add user message
+        addChatBubble(data.userMessage.sender, data.userMessage.message, data.userMessage.negative);
+
+        // Add bot message
+        addChatBubble(data.botMessage.sender, data.botMessage.message, data.botMessage.negative);
+
+
+    }
+
 </script>
