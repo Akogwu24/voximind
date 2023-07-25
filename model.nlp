@@ -109,10 +109,472 @@
           "good,love,morn,peopl": {
             "intent": "greeting.morning",
             "domain": "default"
+          },
+          "hey": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hi": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hello": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "is,up,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "yo": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "sup": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "howdi": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hey,there": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "buddi,hey": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hi,there": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hiya": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "friend,hey": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "dude,hey": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hey,mate": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hiya,there": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "go,how,is,it": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "happen,hey,is,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "day,hey,how,is,your": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hello,is,new,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "are,do,hello,how,you": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "everyth,hi,how,is,there": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "go,hey,is,on,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hi,how,is,life": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "been,have,hey,how,you": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hi,is,news,the,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hey,long,no,see,time": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "happen,hello,in,is,what,world,your": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "day,go,hey,how,is,your": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "cook,hiya,is,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "buttercup,hey,is,up,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "crackin,hey,is,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hi,how,is,the,treat,world,you": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "day,hey,how,is,treat,you,your": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "go,hi,how,is,week,your": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "good,hey,is,the,what,word": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "cook,good,hi,is,look,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hey,how,is,life,treat,you": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "down,go,hey,is,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hap,hey,is,the,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "are,hi,how,thing": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "cook,good,hey,is,look,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "everyth,hey,how,in,is,world,your": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hiya,is,shake,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hey,is,new,what,with,you": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "cook,hey,in,is,neck,of,the,what,wood,your": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "good,hi,is,the,what,word": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "everyth,hey,how,is,with,you": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "go,hey,how,is,week,your": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hi,is,latest,the,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hey,how,is,the,treat,world,you": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "crackin,hi,is,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hi,is,scoop,the,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hey,is,news,the,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "down,go,hi,is,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hey,how,is,life": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "hey,is,new,what": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "happen,hiya,in,is,what,world,your": {
+            "intent": "greeting.casual",
+            "domain": "default"
+          },
+          "goodby": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "farewel": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "later,see,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "care,take": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "again,meet,till,we": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "catch,later,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "a,day,great,have": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "all,best,the": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "long,so": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "easi,it,take": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "next,time,until": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "a,good,have,one": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "around,see,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "out,peac": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "later": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "bye,for,now": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "care,goodby,take": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "catch,flip,on,side,the,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "go,gotta,later,see,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "goodby,say,time,to": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "again,meet,until,we": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "see,soon,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "in,stay,touch": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "friend,goodby,my": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "buddi,care,take": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "bye-by,for,now": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "next,till,time": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "allig,later": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "easi,goodby,it,take": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "farewel,friend,my": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "flip,on,see,side,the,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "catch,on,rebound,the,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "and,be,goodby,well": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "again,cross,path,until,we": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "and,care,goodby,take": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "a,great,have,one": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "a,goodby,have,journey,safe": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "care,see,soon,take,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "again,farewel,meet,until,we": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "a,and,bless,day,goodby,have": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "allig,later,see,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "goodby,safe,stay": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "and,care,farewel,good,take": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "around,partner,see,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "and,goodby,in,keep,touch": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "farewel,next,time,until": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "and,goodby,see,soon,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "and,care,farewel,take": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "later,mate,see,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "a,day,goodby,have,wonder": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "and,farewel,for,goodby,now": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "on,other,see,side,the,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "care,goodby,of,take,yourself": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "farewel,in,stay,touch": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "buddi,see,soon,you": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "a,and,goodby,great,have,journey": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "again,farewel,meet,till,we": {
+            "intent": "greeting.farewell",
+            "domain": "default"
+          },
+          "and,care,for,goodby,now,take": {
+            "intent": "greeting.farewell",
+            "domain": "default"
           }
         },
         "intentDict": {
-          "greeting.morning": "default"
+          "greeting.morning": "default",
+          "greeting.casual": "default",
+          "greeting.farewell": "default"
         },
         "sentences": [
           {
@@ -209,6 +671,596 @@
             "domain": "default",
             "utterance": "Good morning, lovely people!",
             "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hello",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "What's up?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Yo!",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Sup?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Howdy",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey there",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey buddy",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi there",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hiya",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey friend",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey dude",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey mate",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hiya there",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "How's it going?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's happening?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's your day?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hello, what's new?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hello, how are you doing?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi there, how's everything?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's going on?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, how's life?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how have you been?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, what's the news?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, long time no see!",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hello, what's happening in your world?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's your day going?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hiya, what's cooking?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's up, buttercup?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's crackin'?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, how's the world treating you?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's your day treating you?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, how's your week going?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's the good word?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, what's cooking good looking?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's life treating you?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's going down?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's the haps?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, how are things?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's cooking good looking?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's everything in your world?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hiya, what's shaking?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's your day treating you?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's new with you?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's cooking in your neck of the woods?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, what's the good word?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's everything with you?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's your week going?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, what's the latest?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's the world treating you?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, what's crackin'?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's happening?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, what's the scoop?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's the news?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hi, what's going down?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, how's life?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hey, what's new?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Hiya, what's happening in your world?",
+            "intent": "greeting.casual"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Farewell",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you later",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Take care",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Till we meet again",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Catch you later",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Have a great day",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "All the best",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "So long",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Take it easy",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Until next time",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Have a good one",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you around",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Peace out",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Later",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bye for now",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, take care",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Catch you on the flip side",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Gotta go, see you later",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Time to say goodbye",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Until we meet again",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you soon",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Stay in touch",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Have a good one",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, my friend",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Take care, buddy",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bye-bye for now",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Till next time",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Later, alligator",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, take it easy",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Farewell, my friend",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you on the flip side",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Catch you on the rebound",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, and be well",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Until we cross paths again",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Take care and goodbye",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Have a great one",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, have a safe journey",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you soon, take care",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Farewell, until we meet again",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, and have a blessed day",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you later, alligator",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, stay safe",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Farewell, and take good care",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you around, partner",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, and keep in touch",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Farewell, until next time",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, and see you soon",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Take care, and farewell",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you later, mate",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, have a wonderful day",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Farewell, and goodbye for now",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you on the other side",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, take care of yourself",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Farewell, stay in touch",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "See you soon, buddy",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Goodbye, and have a great journey",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Farewell, till we meet again",
+            "intent": "greeting.farewell"
+          },
+          {
+            "domain": "default",
+            "utterance": "Take care and goodbye for now",
+            "intent": "greeting.farewell"
           }
         ],
         "domains": {
@@ -260,10 +1312,99 @@
               "have": 1,
               "bless": 1,
               "love": 1,
-              "peopl": 1
+              "peopl": 1,
+              "hi": 1,
+              "what": 1,
+              "yo": 1,
+              "sup": 1,
+              "howdi": 1,
+              "there": 1,
+              "buddi": 1,
+              "hiya": 1,
+              "dude": 1,
+              "how": 1,
+              "go": 1,
+              "happen": 1,
+              "your": 1,
+              "new": 1,
+              "are": 1,
+              "do": 1,
+              "everyth": 1,
+              "on": 1,
+              "life": 1,
+              "been": 1,
+              "news": 1,
+              "long": 1,
+              "no": 1,
+              "see": 1,
+              "in": 1,
+              "world": 1,
+              "cook": 1,
+              "buttercup": 1,
+              "crackin": 1,
+              "treat": 1,
+              "week": 1,
+              "word": 1,
+              "look": 1,
+              "down": 1,
+              "hap": 1,
+              "thing": 1,
+              "shake": 1,
+              "neck": 1,
+              "of": 1,
+              "wood": 1,
+              "latest": 1,
+              "scoop": 1,
+              "goodby": 1,
+              "farewel": 1,
+              "later": 1,
+              "take": 1,
+              "care": 1,
+              "till": 1,
+              "we": 1,
+              "meet": 1,
+              "again": 1,
+              "catch": 1,
+              "great": 1,
+              "all": 1,
+              "best": 1,
+              "so": 1,
+              "easi": 1,
+              "until": 1,
+              "next": 1,
+              "one": 1,
+              "around": 1,
+              "peac": 1,
+              "out": 1,
+              "bye": 1,
+              "for": 1,
+              "now": 1,
+              "flip": 1,
+              "side": 1,
+              "gotta": 1,
+              "say": 1,
+              "soon": 1,
+              "stay": 1,
+              "touch": 1,
+              "bye-by": 1,
+              "allig": 1,
+              "rebound": 1,
+              "be": 1,
+              "well": 1,
+              "cross": 1,
+              "path": 1,
+              "safe": 1,
+              "journey": 1,
+              "partner": 1,
+              "keep": 1,
+              "wonder": 1,
+              "other": 1,
+              "yourself": 1
             },
             "intents": {
-              "greeting.morning": 1
+              "greeting.morning": 1,
+              "greeting.casual": 1,
+              "greeting.farewell": 1
             },
             "intentFeatures": {
               "greeting.morning": {
@@ -303,11 +1444,139 @@
                 "bless": 1,
                 "love": 1,
                 "peopl": 1
+              },
+              "greeting.casual": {
+                "hey": 1,
+                "hi": 1,
+                "hello": 1,
+                "what": 1,
+                "is": 1,
+                "up": 1,
+                "yo": 1,
+                "sup": 1,
+                "howdi": 1,
+                "there": 1,
+                "buddi": 1,
+                "hiya": 1,
+                "friend": 1,
+                "dude": 1,
+                "mate": 1,
+                "how": 1,
+                "it": 1,
+                "go": 1,
+                "happen": 1,
+                "your": 1,
+                "day": 1,
+                "new": 1,
+                "are": 1,
+                "you": 1,
+                "do": 1,
+                "everyth": 1,
+                "on": 1,
+                "life": 1,
+                "have": 1,
+                "been": 1,
+                "the": 1,
+                "news": 1,
+                "long": 1,
+                "time": 1,
+                "no": 1,
+                "see": 1,
+                "in": 1,
+                "world": 1,
+                "cook": 1,
+                "buttercup": 1,
+                "crackin": 1,
+                "treat": 1,
+                "week": 1,
+                "good": 1,
+                "word": 1,
+                "look": 1,
+                "down": 1,
+                "hap": 1,
+                "thing": 1,
+                "shake": 1,
+                "with": 1,
+                "neck": 1,
+                "of": 1,
+                "wood": 1,
+                "latest": 1,
+                "scoop": 1
+              },
+              "greeting.farewell": {
+                "goodby": 1,
+                "farewel": 1,
+                "see": 1,
+                "you": 1,
+                "later": 1,
+                "take": 1,
+                "care": 1,
+                "till": 1,
+                "we": 1,
+                "meet": 1,
+                "again": 1,
+                "catch": 1,
+                "have": 1,
+                "a": 1,
+                "great": 1,
+                "day": 1,
+                "all": 1,
+                "the": 1,
+                "best": 1,
+                "so": 1,
+                "long": 1,
+                "it": 1,
+                "easi": 1,
+                "until": 1,
+                "next": 1,
+                "time": 1,
+                "good": 1,
+                "one": 1,
+                "around": 1,
+                "peac": 1,
+                "out": 1,
+                "bye": 1,
+                "for": 1,
+                "now": 1,
+                "on": 1,
+                "flip": 1,
+                "side": 1,
+                "gotta": 1,
+                "go": 1,
+                "to": 1,
+                "say": 1,
+                "soon": 1,
+                "stay": 1,
+                "in": 1,
+                "touch": 1,
+                "my": 1,
+                "friend": 1,
+                "buddi": 1,
+                "bye-by": 1,
+                "allig": 1,
+                "rebound": 1,
+                "and": 1,
+                "be": 1,
+                "well": 1,
+                "cross": 1,
+                "path": 1,
+                "safe": 1,
+                "journey": 1,
+                "bless": 1,
+                "partner": 1,
+                "keep": 1,
+                "mate": 1,
+                "wonder": 1,
+                "other": 1,
+                "of": 1,
+                "yourself": 1
               }
             },
             "featuresToIntent": {
               "good": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "morn": [
                 "greeting.morning"
@@ -316,34 +1585,42 @@
                 "greeting.morning"
               ],
               "day": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "man": [
                 "greeting.morning"
               ],
               "hey": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual"
               ],
               "rise": [
                 "greeting.morning"
               ],
               "and": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.farewell"
               ],
               "shine": [
                 "greeting.morning"
               ],
               "a": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.farewell"
               ],
               "beauti": [
                 "greeting.morning"
               ],
               "to": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.farewell"
               ],
               "you": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "wish": [
                 "greeting.morning"
@@ -361,25 +1638,36 @@
                 "greeting.morning"
               ],
               "mate": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "hello": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual"
               ],
               "it": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "is": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual"
               ],
               "time": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "my": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.farewell"
               ],
               "friend": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "marvel": [
                 "greeting.morning"
@@ -388,10 +1676,13 @@
                 "greeting.morning"
               ],
               "with": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual"
               ],
               "the": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "dawn": [
                 "greeting.morning"
@@ -400,19 +1691,291 @@
                 "greeting.morning"
               ],
               "up": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual"
               ],
               "have": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "bless": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.farewell"
               ],
               "love": [
                 "greeting.morning"
               ],
               "peopl": [
                 "greeting.morning"
+              ],
+              "hi": [
+                "greeting.casual"
+              ],
+              "what": [
+                "greeting.casual"
+              ],
+              "yo": [
+                "greeting.casual"
+              ],
+              "sup": [
+                "greeting.casual"
+              ],
+              "howdi": [
+                "greeting.casual"
+              ],
+              "there": [
+                "greeting.casual"
+              ],
+              "buddi": [
+                "greeting.casual",
+                "greeting.farewell"
+              ],
+              "hiya": [
+                "greeting.casual"
+              ],
+              "dude": [
+                "greeting.casual"
+              ],
+              "how": [
+                "greeting.casual"
+              ],
+              "go": [
+                "greeting.casual",
+                "greeting.farewell"
+              ],
+              "happen": [
+                "greeting.casual"
+              ],
+              "your": [
+                "greeting.casual"
+              ],
+              "new": [
+                "greeting.casual"
+              ],
+              "are": [
+                "greeting.casual"
+              ],
+              "do": [
+                "greeting.casual"
+              ],
+              "everyth": [
+                "greeting.casual"
+              ],
+              "on": [
+                "greeting.casual",
+                "greeting.farewell"
+              ],
+              "life": [
+                "greeting.casual"
+              ],
+              "been": [
+                "greeting.casual"
+              ],
+              "news": [
+                "greeting.casual"
+              ],
+              "long": [
+                "greeting.casual",
+                "greeting.farewell"
+              ],
+              "no": [
+                "greeting.casual"
+              ],
+              "see": [
+                "greeting.casual",
+                "greeting.farewell"
+              ],
+              "in": [
+                "greeting.casual",
+                "greeting.farewell"
+              ],
+              "world": [
+                "greeting.casual"
+              ],
+              "cook": [
+                "greeting.casual"
+              ],
+              "buttercup": [
+                "greeting.casual"
+              ],
+              "crackin": [
+                "greeting.casual"
+              ],
+              "treat": [
+                "greeting.casual"
+              ],
+              "week": [
+                "greeting.casual"
+              ],
+              "word": [
+                "greeting.casual"
+              ],
+              "look": [
+                "greeting.casual"
+              ],
+              "down": [
+                "greeting.casual"
+              ],
+              "hap": [
+                "greeting.casual"
+              ],
+              "thing": [
+                "greeting.casual"
+              ],
+              "shake": [
+                "greeting.casual"
+              ],
+              "neck": [
+                "greeting.casual"
+              ],
+              "of": [
+                "greeting.casual",
+                "greeting.farewell"
+              ],
+              "wood": [
+                "greeting.casual"
+              ],
+              "latest": [
+                "greeting.casual"
+              ],
+              "scoop": [
+                "greeting.casual"
+              ],
+              "goodby": [
+                "greeting.farewell"
+              ],
+              "farewel": [
+                "greeting.farewell"
+              ],
+              "later": [
+                "greeting.farewell"
+              ],
+              "take": [
+                "greeting.farewell"
+              ],
+              "care": [
+                "greeting.farewell"
+              ],
+              "till": [
+                "greeting.farewell"
+              ],
+              "we": [
+                "greeting.farewell"
+              ],
+              "meet": [
+                "greeting.farewell"
+              ],
+              "again": [
+                "greeting.farewell"
+              ],
+              "catch": [
+                "greeting.farewell"
+              ],
+              "great": [
+                "greeting.farewell"
+              ],
+              "all": [
+                "greeting.farewell"
+              ],
+              "best": [
+                "greeting.farewell"
+              ],
+              "so": [
+                "greeting.farewell"
+              ],
+              "easi": [
+                "greeting.farewell"
+              ],
+              "until": [
+                "greeting.farewell"
+              ],
+              "next": [
+                "greeting.farewell"
+              ],
+              "one": [
+                "greeting.farewell"
+              ],
+              "around": [
+                "greeting.farewell"
+              ],
+              "peac": [
+                "greeting.farewell"
+              ],
+              "out": [
+                "greeting.farewell"
+              ],
+              "bye": [
+                "greeting.farewell"
+              ],
+              "for": [
+                "greeting.farewell"
+              ],
+              "now": [
+                "greeting.farewell"
+              ],
+              "flip": [
+                "greeting.farewell"
+              ],
+              "side": [
+                "greeting.farewell"
+              ],
+              "gotta": [
+                "greeting.farewell"
+              ],
+              "say": [
+                "greeting.farewell"
+              ],
+              "soon": [
+                "greeting.farewell"
+              ],
+              "stay": [
+                "greeting.farewell"
+              ],
+              "touch": [
+                "greeting.farewell"
+              ],
+              "bye-by": [
+                "greeting.farewell"
+              ],
+              "allig": [
+                "greeting.farewell"
+              ],
+              "rebound": [
+                "greeting.farewell"
+              ],
+              "be": [
+                "greeting.farewell"
+              ],
+              "well": [
+                "greeting.farewell"
+              ],
+              "cross": [
+                "greeting.farewell"
+              ],
+              "path": [
+                "greeting.farewell"
+              ],
+              "safe": [
+                "greeting.farewell"
+              ],
+              "journey": [
+                "greeting.farewell"
+              ],
+              "partner": [
+                "greeting.farewell"
+              ],
+              "keep": [
+                "greeting.farewell"
+              ],
+              "wonder": [
+                "greeting.farewell"
+              ],
+              "other": [
+                "greeting.farewell"
+              ],
+              "yourself": [
+                "greeting.farewell"
               ]
             },
             "neuralNetwork": {
@@ -463,50 +2026,478 @@
                 "have",
                 "bless",
                 "love",
-                "peopl"
+                "peopl",
+                "hi",
+                "what",
+                "yo",
+                "sup",
+                "howdi",
+                "there",
+                "buddi",
+                "hiya",
+                "dude",
+                "how",
+                "go",
+                "happen",
+                "your",
+                "new",
+                "are",
+                "do",
+                "everyth",
+                "on",
+                "life",
+                "been",
+                "news",
+                "long",
+                "no",
+                "see",
+                "in",
+                "world",
+                "cook",
+                "buttercup",
+                "crackin",
+                "treat",
+                "week",
+                "word",
+                "look",
+                "down",
+                "hap",
+                "thing",
+                "shake",
+                "neck",
+                "of",
+                "wood",
+                "latest",
+                "scoop",
+                "goodby",
+                "farewel",
+                "later",
+                "take",
+                "care",
+                "till",
+                "we",
+                "meet",
+                "again",
+                "catch",
+                "great",
+                "all",
+                "best",
+                "so",
+                "easi",
+                "until",
+                "next",
+                "one",
+                "around",
+                "peac",
+                "out",
+                "bye",
+                "for",
+                "now",
+                "flip",
+                "side",
+                "gotta",
+                "say",
+                "soon",
+                "stay",
+                "touch",
+                "bye-by",
+                "allig",
+                "rebound",
+                "be",
+                "well",
+                "cross",
+                "path",
+                "safe",
+                "journey",
+                "partner",
+                "keep",
+                "wonder",
+                "other",
+                "yourself"
               ],
               "intents": [
-                "greeting.morning"
+                "greeting.morning",
+                "greeting.casual",
+                "greeting.farewell"
               ],
               "perceptrons": [
                 [
-                  0.33307844400405884,
-                  6.623160362243652,
-                  0.10695237666368484,
-                  3.801633358001709,
-                  2.729823350906372,
-                  0.2685590386390686,
-                  1.7284520864486694,
-                  2.592615842819214,
-                  2.592615842819214,
-                  0.2821381688117981,
-                  -0.13650476932525635,
-                  -0.13650476932525635,
-                  0.26929956674575806,
-                  0.4068402349948883,
-                  1.0691603422164917,
-                  1.0691603422164917,
-                  -0.07085336744785309,
-                  0.1643085479736328,
-                  0.1643085479736328,
-                  0.07463740557432175,
-                  0.07463740557432175,
-                  0.07463740557432175,
-                  0.07463740557432175,
-                  -0.027528924867510796,
-                  -0.027528924867510796,
-                  -0.6620607972145081,
-                  1.7297101020812988,
-                  1.7297101020812988,
-                  1.7297101020812988,
-                  1.7297101020812988,
-                  0.8649625182151794,
-                  0.8649625182151794,
-                  0.0146493474021554,
-                  0.0146493474021554,
-                  -0.02327861450612545,
-                  -0.02327861450612545,
-                  7.373066964662383
+                  -0.03551013022661209,
+                  14.17512321472168,
+                  0.0012977076694369316,
+                  4.732297897338867,
+                  9.434453010559082,
+                  -0.07790160924196243,
+                  5.045775890350342,
+                  1.2062830924987793,
+                  7.877981662750244,
+                  0.33463138341903687,
+                  0.35633620619773865,
+                  0.1527603715658188,
+                  -0.8820511698722839,
+                  2.1925742626190186,
+                  3.8776297569274902,
+                  3.8776297569274902,
+                  -0.005582332145422697,
+                  0.49966591596603394,
+                  -0.5423694252967834,
+                  -0.8206875324249268,
+                  1.4543691873550415,
+                  -1.44550359249115,
+                  0.7701547741889954,
+                  0.2158096879720688,
+                  -0.22178113460540771,
+                  -1.6851496696472168,
+                  4.282411098480225,
+                  3.9372951984405518,
+                  1.627974271774292,
+                  4.282411098480225,
+                  2.8318684101104736,
+                  2.21562123298645,
+                  -2.377119779586792,
+                  1.9979352951049805,
+                  -0.0034563206136226654,
+                  -0.0034563206136226654,
+                  -1.641278862953186,
+                  -1.8596248626708984,
+                  -1.0993841886520386,
+                  -1.0806936025619507,
+                  -1.0656319856643677,
+                  -1.0332854986190796,
+                  -0.5296279788017273,
+                  -1.1082656383514404,
+                  -0.5064917206764221,
+                  -2.252469301223755,
+                  -0.30437934398651123,
+                  -0.11902166903018951,
+                  -1.1066919565200806,
+                  -0.3062559962272644,
+                  -0.33251792192459106,
+                  -0.33251792192459106,
+                  -0.16437119245529175,
+                  -0.7747290134429932,
+                  -0.026590481400489807,
+                  -0.08140925318002701,
+                  -0.025985071435570717,
+                  -0.5890713334083557,
+                  -0.09190528094768524,
+                  -1.0769981145858765,
+                  -0.42799457907676697,
+                  -0.057702623307704926,
+                  -0.1738739162683487,
+                  0,
+                  0,
+                  -0.408812016248703,
+                  0,
+                  -0.4795762002468109,
+                  -0.16595129668712616,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -6.041868686676025,
+                  -1.6230990886688232,
+                  -1.0312016010284424,
+                  -1.9683594703674316,
+                  -1.5334341526031494,
+                  -0.6822795271873474,
+                  -0.3283071517944336,
+                  -0.3283071517944336,
+                  -0.3283071517944336,
+                  -1.1242291927337646,
+                  -2.912566900253296,
+                  -1.2041643857955933,
+                  -1.2041643857955933,
+                  -0.4571078419685364,
+                  -0.3900287449359894,
+                  -0.6831845045089722,
+                  -0.9952706694602966,
+                  -1.2618740797042847,
+                  -0.26202651858329773,
+                  -0.5044137239456177,
+                  -0.5044137239456177,
+                  -0.2465679794549942,
+                  -0.44475066661834717,
+                  -0.44475066661834717,
+                  -0.42946892976760864,
+                  -0.42946892976760864,
+                  -0.004494000691920519,
+                  -0.17504747211933136,
+                  -0.15355725586414337,
+                  -0.21729476749897003,
+                  -0.41994985938072205,
+                  -0.17553609609603882,
+                  -0.025142552331089973,
+                  -0.32416731119155884,
+                  -0.502856969833374,
+                  -0.502856969833374,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.16158543527126312,
+                  0,
+                  0,
+                  0,
+                  0.14960080378853294
+                ],
+                [
+                  -1.1480095386505127,
+                  -15.16441535949707,
+                  -2.795210838317871,
+                  -3.2076056003570557,
+                  -2.5510640144348145,
+                  7.389627933502197,
+                  -0.6875708103179932,
+                  -4.558015823364258,
+                  -4.328922271728516,
+                  -2.4600749015808105,
+                  0,
+                  -0.2957928478717804,
+                  -1.7087661027908325,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.08663197606801987,
+                  0.01506585069000721,
+                  7.371279716491699,
+                  4.400238513946533,
+                  -0.2754122018814087,
+                  -3.195535659790039,
+                  -1.8822202682495117,
+                  0.013778632506728172,
+                  0,
+                  -3.028700590133667,
+                  1.708643913269043,
+                  -2.5344767570495605,
+                  -3.028700590133667,
+                  -3.622429132461548,
+                  5.62661075592041,
+                  -1.8899753093719482,
+                  0,
+                  0,
+                  0,
+                  7.382019519805908,
+                  2.0392909049987793,
+                  7.40395975112915,
+                  7.404191017150879,
+                  7.404425621032715,
+                  0.003617319744080305,
+                  0.014706631191074848,
+                  7.388059139251709,
+                  0.014332749880850315,
+                  3.0208659172058105,
+                  0.198282852768898,
+                  -1.7536877393722534,
+                  0.37439385056495667,
+                  -1.7448222637176514,
+                  -1.4292141199111938,
+                  0.13215553760528564,
+                  -2.7265591621398926,
+                  -1.9982980489730835,
+                  -2.7620460987091064,
+                  0.5702679753303528,
+                  0.778881311416626,
+                  -0.5578858852386475,
+                  5.764671802520752,
+                  -2.0193450450897217,
+                  -0.08934573829174042,
+                  -0.2811329662799835,
+                  -1.7534949779510498,
+                  -7.376802921295166,
+                  -1.7430756092071533,
+                  1.7945504188537598,
+                  -3.302443265914917,
+                  1.937709093093872,
+                  1.160979151725769,
+                  -1.950152039527893,
+                  0.7973276376724243,
+                  -1.5611519813537598,
+                  -1.7351250648498535,
+                  0.7532079219818115,
+                  0.7532079219818115,
+                  0.7532079219818115,
+                  0.7961817383766174,
+                  0.7949380278587341,
+                  -6.881620407104492,
+                  -6.881367206573486,
+                  -6.879971027374268,
+                  -6.7902913093566895,
+                  -2.2981629371643066,
+                  -1.9457104206085205,
+                  -1.8118292093276978,
+                  -1.3163942098617554,
+                  -1.8118292093276978,
+                  -1.1556785106658936,
+                  -1.1284373998641968,
+                  -2.1938915252685547,
+                  -2.1938915252685547,
+                  -6.322741985321045,
+                  -4.483520984649658,
+                  -2.2702102661132812,
+                  -2.4028208255767822,
+                  -1.4063960313796997,
+                  -3.154876947402954,
+                  -3.4416706562042236,
+                  -3.4416706562042236,
+                  -1.3770060539245605,
+                  -2.753786563873291,
+                  -2.753786563873291,
+                  -0.28462713956832886,
+                  -0.28462713956832886,
+                  -0.058324094861745834,
+                  -0.2957928478717804,
+                  -3.5278842449188232,
+                  -3.4264230728149414,
+                  -3.3682312965393066,
+                  -1.3767176866531372,
+                  -0.799009382724762,
+                  -0.04207571968436241,
+                  -0.14031453430652618,
+                  -0.14031453430652618,
+                  -0.49538540840148926,
+                  -0.49538540840148926,
+                  -0.09351038932800293,
+                  0,
+                  -0.32257410883903503,
+                  -0.027991583570837975,
+                  0,
+                  0,
+                  0,
+                  6.884989796180865
+                ],
+                [
+                  -0.12500981986522675,
+                  -13.916487693786621,
+                  -1.6223914623260498,
+                  -0.8208265900611877,
+                  -11.2120943069458,
+                  -12.782675743103027,
+                  -5.299314022064209,
+                  -0.04560164734721184,
+                  -6.851322650909424,
+                  -0.4219440519809723,
+                  -1.1972715854644775,
+                  0.11246169358491898,
+                  -1.3837387561798096,
+                  -3.411789655685425,
+                  -3.101424217224121,
+                  -3.101424217224121,
+                  -0.06894669681787491,
+                  -0.12676945328712463,
+                  0.1137952208518982,
+                  -12.085061073303223,
+                  -1.2972770929336548,
+                  -5.635195732116699,
+                  -0.5951628684997559,
+                  0.7955197095870972,
+                  0.18439342081546783,
+                  -0.21450024843215942,
+                  -3.81919002532959,
+                  -3.81919002532959,
+                  -0.792016863822937,
+                  -3.81919002532959,
+                  -1.5478925704956055,
+                  -3.8014602661132812,
+                  3.329658031463623,
+                  -1.1475480794906616,
+                  0,
+                  0,
+                  -12.091723442077637,
+                  -2.778247594833374,
+                  -12.076969146728516,
+                  -12.070252418518066,
+                  -12.063506126403809,
+                  -2.206758499145508,
+                  0.6706852316856384,
+                  -12.052038192749023,
+                  -0.17397408187389374,
+                  -4.135451316833496,
+                  -1.119254469871521,
+                  -0.19103828072547913,
+                  -0.18985126912593842,
+                  -0.08113224059343338,
+                  -0.6673690676689148,
+                  -0.621803879737854,
+                  -0.01481736358255148,
+                  1.9296791553497314,
+                  -0.022274231538176537,
+                  -0.9069877862930298,
+                  -0.14983710646629333,
+                  -0.4950122535228729,
+                  -3.0046043395996094,
+                  0.993480384349823,
+                  0.049912843853235245,
+                  -0.2811126410961151,
+                  -0.006292272359132767,
+                  0,
+                  0,
+                  -0.06239280104637146,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.02526966668665409,
+                  0,
+                  0,
+                  -0.0650065541267395,
+                  0,
+                  0,
+                  0,
+                  0.9963042736053467,
+                  0.8258841037750244,
+                  2.2561755180358887,
+                  1.248671531677246,
+                  -0.13332802057266235,
+                  0.9572242498397827,
+                  0.2997339367866516,
+                  0.029790056869387627,
+                  0.2997339367866516,
+                  1.0290783643722534,
+                  -0.09488236159086227,
+                  1.380541205406189,
+                  1.380541205406189,
+                  2.5139825344085693,
+                  1.3954447507858276,
+                  0.7478609681129456,
+                  1.405335545539856,
+                  -0.8432543277740479,
+                  2.4763736724853516,
+                  0.9974476099014282,
+                  0.9974476099014282,
+                  2.147709608078003,
+                  -0.029339611530303955,
+                  -0.029339611530303955,
+                  0.3570806384086609,
+                  0.7958780527114868,
+                  1.1873600482940674,
+                  1.3916409015655518,
+                  1.6456663608551025,
+                  1.1834982633590698,
+                  0.2640646696090698,
+                  2.1155943870544434,
+                  -0.14051590859889984,
+                  1.1353001594543457,
+                  0.49508771300315857,
+                  0.49508771300315857,
+                  0.2687229812145233,
+                  0.2687229812145233,
+                  -0.18586409091949463,
+                  -1.7711504697799683,
+                  -0.16505448520183563,
+                  0.7098250389099121,
+                  -1.092342734336853,
+                  0.43957310914993286,
+                  -0.0650065541267395,
+                  12.278832542264281
                 ]
               ]
             }
@@ -591,6 +2582,478 @@
       [
         "en",
         "Good morning, lovely people!"
+      ],
+      [
+        "en",
+        "Hey"
+      ],
+      [
+        "en",
+        "Hi"
+      ],
+      [
+        "en",
+        "Hello"
+      ],
+      [
+        "en",
+        "What's up?"
+      ],
+      [
+        "en",
+        "Yo!"
+      ],
+      [
+        "en",
+        "Sup?"
+      ],
+      [
+        "en",
+        "Howdy"
+      ],
+      [
+        "en",
+        "Hey there"
+      ],
+      [
+        "en",
+        "Hey buddy"
+      ],
+      [
+        "en",
+        "Hi there"
+      ],
+      [
+        "en",
+        "Hiya"
+      ],
+      [
+        "en",
+        "Hey friend"
+      ],
+      [
+        "en",
+        "Hey dude"
+      ],
+      [
+        "en",
+        "Hey mate"
+      ],
+      [
+        "en",
+        "Hiya there"
+      ],
+      [
+        "en",
+        "How's it going?"
+      ],
+      [
+        "en",
+        "Hey, what's happening?"
+      ],
+      [
+        "en",
+        "Hey, how's your day?"
+      ],
+      [
+        "en",
+        "Hello, what's new?"
+      ],
+      [
+        "en",
+        "Hello, how are you doing?"
+      ],
+      [
+        "en",
+        "Hi there, how's everything?"
+      ],
+      [
+        "en",
+        "Hey, what's going on?"
+      ],
+      [
+        "en",
+        "Hi, how's life?"
+      ],
+      [
+        "en",
+        "Hey, how have you been?"
+      ],
+      [
+        "en",
+        "Hi, what's the news?"
+      ],
+      [
+        "en",
+        "Hey, long time no see!"
+      ],
+      [
+        "en",
+        "Hello, what's happening in your world?"
+      ],
+      [
+        "en",
+        "Hey, how's your day going?"
+      ],
+      [
+        "en",
+        "Hiya, what's cooking?"
+      ],
+      [
+        "en",
+        "Hey, what's up, buttercup?"
+      ],
+      [
+        "en",
+        "Hey, what's crackin'?"
+      ],
+      [
+        "en",
+        "Hi, how's the world treating you?"
+      ],
+      [
+        "en",
+        "Hey, how's your day treating you?"
+      ],
+      [
+        "en",
+        "Hi, how's your week going?"
+      ],
+      [
+        "en",
+        "Hey, what's the good word?"
+      ],
+      [
+        "en",
+        "Hi, what's cooking good looking?"
+      ],
+      [
+        "en",
+        "Hey, how's life treating you?"
+      ],
+      [
+        "en",
+        "Hey, what's going down?"
+      ],
+      [
+        "en",
+        "Hey, what's the haps?"
+      ],
+      [
+        "en",
+        "Hi, how are things?"
+      ],
+      [
+        "en",
+        "Hey, what's cooking good looking?"
+      ],
+      [
+        "en",
+        "Hey, how's everything in your world?"
+      ],
+      [
+        "en",
+        "Hiya, what's shaking?"
+      ],
+      [
+        "en",
+        "Hey, how's your day treating you?"
+      ],
+      [
+        "en",
+        "Hey, what's new with you?"
+      ],
+      [
+        "en",
+        "Hey, what's cooking in your neck of the woods?"
+      ],
+      [
+        "en",
+        "Hi, what's the good word?"
+      ],
+      [
+        "en",
+        "Hey, how's everything with you?"
+      ],
+      [
+        "en",
+        "Hey, how's your week going?"
+      ],
+      [
+        "en",
+        "Hi, what's the latest?"
+      ],
+      [
+        "en",
+        "Hey, how's the world treating you?"
+      ],
+      [
+        "en",
+        "Hi, what's crackin'?"
+      ],
+      [
+        "en",
+        "Hey, what's happening?"
+      ],
+      [
+        "en",
+        "Hi, what's the scoop?"
+      ],
+      [
+        "en",
+        "Hey, what's the news?"
+      ],
+      [
+        "en",
+        "Hi, what's going down?"
+      ],
+      [
+        "en",
+        "Hey, how's life?"
+      ],
+      [
+        "en",
+        "Hey, what's new?"
+      ],
+      [
+        "en",
+        "Hiya, what's happening in your world?"
+      ],
+      [
+        "en",
+        "Goodbye"
+      ],
+      [
+        "en",
+        "Farewell"
+      ],
+      [
+        "en",
+        "See you later"
+      ],
+      [
+        "en",
+        "Take care"
+      ],
+      [
+        "en",
+        "Till we meet again"
+      ],
+      [
+        "en",
+        "Catch you later"
+      ],
+      [
+        "en",
+        "Have a great day"
+      ],
+      [
+        "en",
+        "All the best"
+      ],
+      [
+        "en",
+        "So long"
+      ],
+      [
+        "en",
+        "Take it easy"
+      ],
+      [
+        "en",
+        "Until next time"
+      ],
+      [
+        "en",
+        "Have a good one"
+      ],
+      [
+        "en",
+        "See you around"
+      ],
+      [
+        "en",
+        "Peace out"
+      ],
+      [
+        "en",
+        "Later"
+      ],
+      [
+        "en",
+        "Bye for now"
+      ],
+      [
+        "en",
+        "Goodbye, take care"
+      ],
+      [
+        "en",
+        "Catch you on the flip side"
+      ],
+      [
+        "en",
+        "Gotta go, see you later"
+      ],
+      [
+        "en",
+        "Time to say goodbye"
+      ],
+      [
+        "en",
+        "Until we meet again"
+      ],
+      [
+        "en",
+        "See you soon"
+      ],
+      [
+        "en",
+        "Stay in touch"
+      ],
+      [
+        "en",
+        "Have a good one"
+      ],
+      [
+        "en",
+        "Goodbye, my friend"
+      ],
+      [
+        "en",
+        "Take care, buddy"
+      ],
+      [
+        "en",
+        "Bye-bye for now"
+      ],
+      [
+        "en",
+        "Till next time"
+      ],
+      [
+        "en",
+        "Later, alligator"
+      ],
+      [
+        "en",
+        "Goodbye, take it easy"
+      ],
+      [
+        "en",
+        "Farewell, my friend"
+      ],
+      [
+        "en",
+        "See you on the flip side"
+      ],
+      [
+        "en",
+        "Catch you on the rebound"
+      ],
+      [
+        "en",
+        "Goodbye, and be well"
+      ],
+      [
+        "en",
+        "Until we cross paths again"
+      ],
+      [
+        "en",
+        "Take care and goodbye"
+      ],
+      [
+        "en",
+        "Have a great one"
+      ],
+      [
+        "en",
+        "Goodbye, have a safe journey"
+      ],
+      [
+        "en",
+        "See you soon, take care"
+      ],
+      [
+        "en",
+        "Farewell, until we meet again"
+      ],
+      [
+        "en",
+        "Goodbye, and have a blessed day"
+      ],
+      [
+        "en",
+        "See you later, alligator"
+      ],
+      [
+        "en",
+        "Goodbye, stay safe"
+      ],
+      [
+        "en",
+        "Farewell, and take good care"
+      ],
+      [
+        "en",
+        "See you around, partner"
+      ],
+      [
+        "en",
+        "Goodbye, and keep in touch"
+      ],
+      [
+        "en",
+        "Farewell, until next time"
+      ],
+      [
+        "en",
+        "Goodbye, and see you soon"
+      ],
+      [
+        "en",
+        "Take care, and farewell"
+      ],
+      [
+        "en",
+        "See you later, mate"
+      ],
+      [
+        "en",
+        "Goodbye, have a wonderful day"
+      ],
+      [
+        "en",
+        "Farewell, and goodbye for now"
+      ],
+      [
+        "en",
+        "See you on the other side"
+      ],
+      [
+        "en",
+        "Goodbye, take care of yourself"
+      ],
+      [
+        "en",
+        "Farewell, stay in touch"
+      ],
+      [
+        "en",
+        "See you soon, buddy"
+      ],
+      [
+        "en",
+        "Goodbye, and have a great journey"
+      ],
+      [
+        "en",
+        "Farewell, till we meet again"
+      ],
+      [
+        "en",
+        "Take care and goodbye for now"
       ]
     ]
   },
@@ -836,6 +3299,313 @@
           },
           {
             "answer": "Hello, have a fantastic and optimistic morning!"
+          }
+        ],
+        "greeting.casual": [
+          {
+            "answer": "Hey"
+          },
+          {
+            "answer": "I'm here to assist you. How may I help you today?"
+          },
+          {
+            "answer": "I'm at your service. How can I assist you?"
+          },
+          {
+            "answer": "Certainly! What can I do for you today?"
+          },
+          {
+            "answer": "I'm here to help. What do you need assistance with?"
+          },
+          {
+            "answer": "I'm here and ready to assist you. How can I be of service?"
+          },
+          {
+            "answer": "I'd be happy to help. What can I assist you with?"
+          },
+          {
+            "answer": "Feel free to let me know how I can help you today."
+          },
+          {
+            "answer": "I'm here to lend a hand. How may I assist you?"
+          },
+          {
+            "answer": "I'm all ears. What can I do to help you today?"
+          },
+          {
+            "answer": "Please let me know how I can assist you today."
+          },
+          {
+            "answer": "Your wish is my command. How can I be of help?"
+          },
+          {
+            "answer": "How can I make your day better? Let me know how I can help."
+          },
+          {
+            "answer": "I'm here to assist with any questions or tasks you have."
+          },
+          {
+            "answer": "I'm here and ready to help. What can I do for you today?"
+          },
+          {
+            "answer": "Feel free to share what you need help with, and I'll do my best to assist you."
+          },
+          {
+            "answer": "You're in good hands. What can I do to help you today?"
+          },
+          {
+            "answer": "I'm here to make your experience better. How may I assist you?"
+          },
+          {
+            "answer": "Please don't hesitate to let me know how I can help you today."
+          },
+          {
+            "answer": "I'm here to support you. What do you need assistance with?"
+          },
+          {
+            "answer": "I'm all ears. How may I be of service to you?"
+          },
+          {
+            "answer": "Feel free to ask anything you need help with. I'm here for you."
+          },
+          {
+            "answer": "I'm here to assist you with anything you require. What can I help you with today?"
+          },
+          {
+            "answer": "I'm available to assist you. How can I make your day better?"
+          },
+          {
+            "answer": "What can I do to make your experience better? Let me know!"
+          },
+          {
+            "answer": "I'm here to provide support. How may I assist you?"
+          },
+          {
+            "answer": "How can I be of service today? Feel free to ask."
+          },
+          {
+            "answer": "I'm here to help you. What can I do for you today?"
+          },
+          {
+            "answer": "What do you need assistance with? Let me know, and I'll be happy to help."
+          },
+          {
+            "answer": "How can I assist you? Feel free to share your needs."
+          },
+          {
+            "answer": "I'm here to support you. How may I be of service?"
+          },
+          {
+            "answer": "I'm available to help. What do you require assistance with?"
+          },
+          {
+            "answer": "Let me know what you need help with, and I'll do my best to assist you."
+          },
+          {
+            "answer": "I'm at your disposal. How can I assist you today?"
+          },
+          {
+            "answer": "How can I make your day better? Please share your needs."
+          },
+          {
+            "answer": "I'm here to provide support. How may I assist you today?"
+          },
+          {
+            "answer": "What can I do to be of service? Feel free to ask."
+          },
+          {
+            "answer": "I'm here and ready to help. What can I assist you with?"
+          },
+          {
+            "answer": "Feel free to share your needs. I'm here to assist you."
+          },
+          {
+            "answer": "You're in good hands. How can I be of help?"
+          },
+          {
+            "answer": "I'm here to make your experience better. Let me know how I can assist."
+          },
+          {
+            "answer": "I'm here to assist with any questions or tasks. How may I help you?"
+          },
+          {
+            "answer": "What do you need help with? I'm all ears."
+          },
+          {
+            "answer": "Let me know how I can assist you today."
+          },
+          {
+            "answer": "Your wish is my command. How may I be of service?"
+          },
+          {
+            "answer": "How can I make your day better? Share your needs with me."
+          },
+          {
+            "answer": "I'm here to provide support. What can I do for you today?"
+          },
+          {
+            "answer": "Please don't hesitate to let me know how I can help you."
+          },
+          {
+            "answer": "I'm here to support you. How may I assist you today?"
+          },
+          {
+            "answer": "How can I be of service? Let me know what you need."
+          }
+        ],
+        "greeting.farewell": [
+          {
+            "answer": "Don't worry, I'm always here to help."
+          },
+          {
+            "answer": "You can count on me. I'm here to assist you."
+          },
+          {
+            "answer": "Feel free to reach out anytime. I'm here to lend a hand."
+          },
+          {
+            "answer": "Rest assured, I'm available to help whenever you need it."
+          },
+          {
+            "answer": "No problem at all. I'll be here to support you."
+          },
+          {
+            "answer": "You've got a friend in me. I'm here to help."
+          },
+          {
+            "answer": "Just say the word, and I'll be here to assist you."
+          },
+          {
+            "answer": "I'm always at your service. How can I assist you?"
+          },
+          {
+            "answer": "Count on me for support. I'm here whenever you need me."
+          },
+          {
+            "answer": "You're not alone. I'm here to help you through anything."
+          },
+          {
+            "answer": "I've got your back. I'm here to lend my support."
+          },
+          {
+            "answer": "Need a hand? I'm here for you."
+          },
+          {
+            "answer": "Feel free to ask for help. I'm always available."
+          },
+          {
+            "answer": "I'm just a message away. I'll be here to assist you."
+          },
+          {
+            "answer": "Never hesitate to reach out. I'm here to support you."
+          },
+          {
+            "answer": "You can rely on me. I'm here to help."
+          },
+          {
+            "answer": "Need assistance? I'm here, ready to lend a hand."
+          },
+          {
+            "answer": "Don't stress. I'm here to assist with anything you need."
+          },
+          {
+            "answer": "Just let me know how I can help. I'm always here."
+          },
+          {
+            "answer": "I'll be here to support you every step of the way."
+          },
+          {
+            "answer": "You can always rely on me. I'm here to lend my support."
+          },
+          {
+            "answer": "Anytime you need help, I'll be here for you."
+          },
+          {
+            "answer": "No need to worry. I'm here, ready to assist."
+          },
+          {
+            "answer": "You're important to me. I'm here to help."
+          },
+          {
+            "answer": "You don't have to face it alone. I'm here to support you."
+          },
+          {
+            "answer": "I'll be your guide. I'm always here to help."
+          },
+          {
+            "answer": "In times of need, remember I'm here to lend a hand."
+          },
+          {
+            "answer": "You're not bothering me at all. I'm here to assist."
+          },
+          {
+            "answer": "I'm just a call/message away. I'll be here to support you."
+          },
+          {
+            "answer": "You can lean on me. I'm here to help you through."
+          },
+          {
+            "answer": "You're never alone. I'm here, ready to lend my support."
+          },
+          {
+            "answer": "Feel free to reach out whenever you need assistance. I'm here."
+          },
+          {
+            "answer": "You can always count on me. I'm here to help."
+          },
+          {
+            "answer": "I'm here to support you, no matter what."
+          },
+          {
+            "answer": "Don't hesitate to ask for help. I'm always here."
+          },
+          {
+            "answer": "Need a hand? I'm here to lend one."
+          },
+          {
+            "answer": "You're important to me. I'll be here to assist you."
+          },
+          {
+            "answer": "I'm just one message away. I'm here to support you."
+          },
+          {
+            "answer": "You're not alone in this. I'm here to help."
+          },
+          {
+            "answer": "I'll be here whenever you need a helping hand."
+          },
+          {
+            "answer": "Worry not, I'm always here to assist you."
+          },
+          {
+            "answer": "You can always reach out. I'm here to support you."
+          },
+          {
+            "answer": "Lean on me for help. I'm here to lend my support."
+          },
+          {
+            "answer": "Don't stress. I'm here, ready to assist."
+          },
+          {
+            "answer": "You're never bothering me. I'm here to help."
+          },
+          {
+            "answer": "I'm just one call/message away. I'll be here to support you."
+          },
+          {
+            "answer": "You're not alone in this journey. I'm here to lend a hand."
+          },
+          {
+            "answer": "You've got a friend in me. I'm here to help you out."
+          },
+          {
+            "answer": "Feel free to ask for help. I'm always here to assist."
+          },
+          {
+            "answer": "You can rely on me. I'm here to support you."
+          },
+          {
+            "answer": "Don't worry. I'm here to help with anything you need."
           }
         ]
       }

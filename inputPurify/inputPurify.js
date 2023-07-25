@@ -15,12 +15,12 @@ const sanitizeMessage = async (input) => {
 
     const lexed = aposToLexForm(input).toLowerCase().replace(/[^a-zA-Z\s]+/g, "")
     const tokenized = tokenizer.tokenize(lexed)
-    const fixedspelling = tokenized.map(word=> spellcorrector.correct(word))
-    const stopWordRemoved = stopword.removeStopwords(fixedspelling).toString()
+    const fixedspelling = tokenized.map(word=> spellcorrector.correct(word)).toString()
+    // const stopWordRemoved = stopword.removeStopwords(fixedspelling)
 
-    console.log(stopWordRemoved)
+    console.log(fixedspelling)
 
-   return trainVoxi(stopWordRemoved)
+   return trainVoxi(fixedspelling)
 }
 
 

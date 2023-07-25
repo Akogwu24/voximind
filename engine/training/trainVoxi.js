@@ -16,25 +16,105 @@ const fallback = require("../../fallback/fallback")
  */
 
 /**
- * Training Data For Morning Greetings
+ * Training Data For Greetings
+ */
+/**
+ * Adding Documents
  */
 
 const morningGreeting = require("../../intents/greetings/morning/morning")
+const casualGreeting = require("../../intents/greetings/casual/casualGreetings")
+const farewellGreetings = require("../../intents/greetings/farewell/farewellGreetings")
 
 morningGreeting.forEach(greeting => {
     
     voxi.addDocument(greeting.language,greeting.utterance,greeting.intent)
 })
 
+casualGreeting.forEach(greeting => {
+     voxi.addDocument(greeting.language,greeting.utterance,greeting.intent)
+})
+
+farewellGreetings.forEach(greeting => {
+    voxi.addDocument(greeting.language,greeting.utterance,greeting.intent)
+})
+
+
+
+
+
+
+
+
+
+
+
 /**
  * Corresponding Replies for Morning Greetings
  */
 
 const morningReplies = require("../../intents/greetings/morning/morningReplies")
+const casualResponse = require("../../intents/greetings/casual/casualResponse")
+const farewellResponse = require("../../intents/greetings/farewell/farewellResponse")
+
+
 
 morningReplies.forEach(morningreply => {
     voxi.addAnswer(morningreply.language,morningreply.intent, morningreply.utterance)
 })
+
+casualResponse.forEach(casualReply => {
+    voxi.addAnswer(casualReply.language,casualReply.intent, casualReply.utterance)
+})
+
+farewellResponse.forEach(farewellReply => {
+     voxi.addAnswer(farewellReply.language,farewellReply.intent, farewellReply.utterance)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /**
