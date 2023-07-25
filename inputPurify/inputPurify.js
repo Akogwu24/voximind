@@ -20,7 +20,7 @@ const sanitizeMessage = async (input) => {
 
     console.log(stopWordRemoved)
 
-    trainVoxi(stopWordRemoved)
+   return trainVoxi(stopWordRemoved)
 }
 
 

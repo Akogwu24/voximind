@@ -55,16 +55,16 @@ const english = require("../../languages/english")
 
 const trainVoxi = async (userInput) => {
     
-    voxi.train().then(async() => {
-    voxi.save();
+   await voxi.train()
+   await voxi.save();
     const response = await voxi.process(english, userInput)
-    console.log(response.answer || fallback)
+    
+
+    return response
+    // console.log(response.answer || fallback)
 
         
-}).catch((err) => {
-    console.log(err)
-});
-}
 
+}
 
 module.exports = trainVoxi

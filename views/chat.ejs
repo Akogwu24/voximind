@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Voxi Chat Interface</title>
+   <style>
+    *{
+        box-sizing: border-box;
+    }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #292929; /* Dark background color */
+            color: #fff; /* Light text color */
+            margin: 0;
+            padding: 0;
+        }
+
+        .chat-container {
+            max-width: 500px;
+            margin: 50px auto;
+            border: 1px solid #555; /* Darker border color */
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #2c2c2c; /* Darker chat container background */
+        }
+
+        .chat-bubble {
+            background-color: #363636; /* Darker chat bubble background */
+            padding: 10px 15px;
+            margin: 10px;
+            border-radius: 10px;
+            clear: both;
+            max-width: 70%;
+        }
+
+        .user-bubble {
+            float: right;
+        }
+
+        .bot-bubble {
+            float: left;
+        }
+
+        .sentiment-indicator {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .sent-tag {
+            font-size: 10px;
+            color: #777;
+            text-transform: uppercase;
+            margin-right: 5px;
+        }
+
+        .sent-message {
+            display: inline-block;
+            background-color: #0088cc; /* Lighter blue for sent message */
+            color: #fff;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+
+        .positive {
+            color: #00c853;
+        }
+
+        .negative {
+            color: #f44336;
+        }
+
+        /* Additional styles for the input and send button */
+        .user-input {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #2c2c2c; /* Darker input container background */
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+      
+        }
+
+        .user-message {
+            flex: 1;
+            padding: 10px;
+            border: none; /* Remove border to improve the appearance */
+            border-radius: 20px; /* Increase border radius for a more rounded look */
+            margin-right: 10px;
+            background-color: #444; /* Darker input background */
+            color: #fff; /* Light text color */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+        }
+
+        .user-message::placeholder {
+            color: #aaa; /* Lighter placeholder color */
+        }
+
+        .user-message:focus {
+            outline: none; /* Remove the default focus outline */
+            box-shadow: 0 0 8px rgba(0, 136, 204, 0.8); /* Add a blue glow on focus */
+        }
+
+        .send-button {
+            background-color: #0088cc; /* Lighter blue for send button */
+            color: #fff; /* Light text color */
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px; /* Increase border radius for a more rounded look */
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Add a smooth color transition on hover */
+        }
+
+        .send-button:hover {
+            background-color: #0077b3; /* Slightly darker blue on hover */
+        }
+    </style>
+</head>
+
+<body>
+  <div class="chat-container">
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p>Hello! I'm Voxi, your friendly chatbot. How can I assist you today?</p>
+    </div>
+    <div class="chat-bubble user-bubble">
+      <span class="sentiment-indicator negative">Negative</span>
+      <p><span class="sent-tag">Sent:</span> I'm not happy with the service I received.</p>
+    </div>
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator negative">Negative</span>
+      <p>I'm sorry to hear that. Let's see if I can turn things around for you.</p>
+    </div>
+    <div class="chat-bubble user-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p><span class="sent-tag">Sent:</span> Thank you for your help! You're awesome!</p>
+    </div>
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p>You're welcome! I'm always here to assist you.</p>
+    </div>
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator negative">Negative</span>
+      <p>I apologize for any inconvenience caused.</p>
+    </div>
+    <div class="chat-bubble user-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p><span class="sent-tag">Sent:</span> No problem at all! I appreciate your quick response.</p>
+    </div>
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p>Thanks for your understanding. Is there anything else I can assist you with?</p>
+    </div>
+    <div class="chat-bubble user-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p><span class="sent-tag">Sent:</span> Can you recommend a good restaurant nearby?</p>
+    </div>
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p>Sure! There's a lovely Italian restaurant called "La Trattoria" just a few blocks away. Their pasta is delicious!</p>
+    </div>
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p>Let me know if you need more information or any other recommendations.</p>
+    </div>
+    <div class="chat-bubble user-bubble">
+      <span class="sentiment-indicator negative">Negative</span>
+      <p><span class="sent-tag">Sent:</span> I'm having trouble with the app. It keeps crashing.</p>
+    </div>
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator negative">Negative</span>
+      <p>I'm sorry to hear that you're experiencing issues. Let me investigate and get back to you with a solution.</p>
+    </div>
+    <div class="chat-bubble user-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p><span class="sent-tag">Sent:</span> Take your time. I appreciate your help.</p>
+    </div>
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p>Thank you for your understanding. I'll get back to you as soon as I have more information.</p>
+    </div>
+    <div class="chat-bubble bot-bubble">
+      <span class="sentiment-indicator positive">Positive</span>
+      <p>Feel free to ask if you have any other questions or concerns.</p>
+    </div>
+  </div>
+   <div class="user-input">
+        <input type="text" id="user-message" class="user-message" placeholder="Type your message here...">
+        <button class="send-button" onclick="">Send</button>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function addChatBubble(sender, message) {
+            const chatContainer = document.querySelector(".chat-container");
+            const chatBubble = document.createElement("div");
+            chatBubble.classList.add("chat-bubble");
+            chatBubble.classList.add(sender === "user" ? "user-bubble" : "bot-bubble");
+            chatBubble.innerHTML = `
+                <p>${message}</p>
+            `;
+            chatContainer.appendChild(chatBubble);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+</script>
