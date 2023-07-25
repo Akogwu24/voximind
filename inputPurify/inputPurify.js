@@ -14,13 +14,13 @@ const stopword = require("stopword")
 const sanitizeMessage = async (input) => {
 
     const lexed = aposToLexForm(input).toLowerCase().replace(/[^a-zA-Z\s]+/g, "")
-    const tokenized = tokenizer.tokenize(lexed)
-    const fixedspelling = tokenized.map(word=> spellcorrector.correct(word)).toString()
+    const tokenized = tokenizer.tokenize(lexed).join(" ").toString()
+    // const fixedspelling = tokenized.map(word=> spellcorrector.correct(word))
     // const stopWordRemoved = stopword.removeStopwords(fixedspelling)
 
-    console.log(fixedspelling)
+    console.log(tokenized)
 
-   return trainVoxi(fixedspelling)
+   return trainVoxi(tokenized)
 }
 
 

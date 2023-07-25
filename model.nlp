@@ -38,23 +38,11 @@
             "intent": "greeting.morning",
             "domain": "default"
           },
-          "bro,good,morn": {
-            "intent": "greeting.morning",
-            "domain": "default"
-          },
-          "bro,morn": {
-            "intent": "greeting.morning",
-            "domain": "default"
-          },
           "morn": {
             "intent": "greeting.morning",
             "domain": "default"
           },
-          "day,good,man": {
-            "intent": "greeting.morning",
-            "domain": "default"
-          },
-          "bro,hey,morn": {
+          "day,good": {
             "intent": "greeting.morning",
             "domain": "default"
           },
@@ -66,7 +54,7 @@
             "intent": "greeting.morning",
             "domain": "default"
           },
-          "a,beauti,morn,to,you": {
+          "beauti,morn": {
             "intent": "greeting.morning",
             "domain": "default"
           },
@@ -170,174 +158,6 @@
             "intent": "greeting.casual",
             "domain": "default"
           },
-          "go,how,is,it": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "happen,hey,is,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "day,hey,how,is,your": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hello,is,new,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "are,do,hello,how,you": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "everyth,hi,how,is,there": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "go,hey,is,on,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hi,how,is,life": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "been,have,hey,how,you": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hi,is,news,the,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hey,long,no,see,time": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "happen,hello,in,is,what,world,your": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "day,go,hey,how,is,your": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "cook,hiya,is,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "buttercup,hey,is,up,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "crackin,hey,is,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hi,how,is,the,treat,world,you": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "day,hey,how,is,treat,you,your": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "go,hi,how,is,week,your": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "good,hey,is,the,what,word": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "cook,good,hi,is,look,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hey,how,is,life,treat,you": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "down,go,hey,is,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hap,hey,is,the,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "are,hi,how,thing": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "cook,good,hey,is,look,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "everyth,hey,how,in,is,world,your": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hiya,is,shake,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hey,is,new,what,with,you": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "cook,hey,in,is,neck,of,the,what,wood,your": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "good,hi,is,the,what,word": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "everyth,hey,how,is,with,you": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "go,hey,how,is,week,your": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hi,is,latest,the,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hey,how,is,the,treat,world,you": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "crackin,hi,is,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hi,is,scoop,the,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hey,is,news,the,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "down,go,hi,is,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hey,how,is,life": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "hey,is,new,what": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
-          "happen,hiya,in,is,what,world,your": {
-            "intent": "greeting.casual",
-            "domain": "default"
-          },
           "goodby": {
             "intent": "greeting.farewell",
             "domain": "default"
@@ -382,14 +202,6 @@
             "intent": "greeting.farewell",
             "domain": "default"
           },
-          "a,good,have,one": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "around,see,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
           "out,peac": {
             "intent": "greeting.farewell",
             "domain": "default"
@@ -402,179 +214,44 @@
             "intent": "greeting.farewell",
             "domain": "default"
           },
-          "care,goodby,take": {
-            "intent": "greeting.farewell",
+          "wida": {
+            "intent": "greeting.pidgin",
             "domain": "default"
           },
-          "catch,flip,on,side,the,you": {
-            "intent": "greeting.farewell",
+          "wide": {
+            "intent": "greeting.pidgin",
             "domain": "default"
           },
-          "go,gotta,later,see,you": {
-            "intent": "greeting.farewell",
+          "goe,who": {
+            "intent": "greeting.pidgin",
             "domain": "default"
           },
-          "goodby,say,time,to": {
-            "intent": "greeting.farewell",
+          "dieit": {
+            "intent": "greeting.pidgin",
             "domain": "default"
           },
-          "again,meet,until,we": {
-            "intent": "greeting.farewell",
+          "howfa": {
+            "intent": "greeting.pidgin",
             "domain": "default"
           },
-          "see,soon,you": {
-            "intent": "greeting.farewell",
+          "alay": {
+            "intent": "greeting.pidgin",
             "domain": "default"
           },
-          "in,stay,touch": {
-            "intent": "greeting.farewell",
+          "manchi": {
+            "intent": "greeting.pidgin",
             "domain": "default"
           },
-          "friend,goodby,my": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "buddi,care,take": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "bye-by,for,now": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "next,till,time": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "allig,later": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "easi,goodby,it,take": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "farewel,friend,my": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "flip,on,see,side,the,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "catch,on,rebound,the,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "and,be,goodby,well": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "again,cross,path,until,we": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "and,care,goodby,take": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "a,great,have,one": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "a,goodby,have,journey,safe": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "care,see,soon,take,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "again,farewel,meet,until,we": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "a,and,bless,day,goodby,have": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "allig,later,see,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "goodby,safe,stay": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "and,care,farewel,good,take": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "around,partner,see,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "and,goodby,in,keep,touch": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "farewel,next,time,until": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "and,goodby,see,soon,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "and,care,farewel,take": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "later,mate,see,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "a,day,goodby,have,wonder": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "and,farewel,for,goodby,now": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "on,other,see,side,the,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "care,goodby,of,take,yourself": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "farewel,in,stay,touch": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "buddi,see,soon,you": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "a,and,goodby,great,have,journey": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "again,farewel,meet,till,we": {
-            "intent": "greeting.farewell",
-            "domain": "default"
-          },
-          "and,care,for,goodby,now,take": {
-            "intent": "greeting.farewell",
+          "dey,wetin,xup": {
+            "intent": "greeting.pidgin",
             "domain": "default"
           }
         },
         "intentDict": {
           "greeting.morning": "default",
           "greeting.casual": "default",
-          "greeting.farewell": "default"
+          "greeting.farewell": "default",
+          "greeting.pidgin": "default"
         },
         "sentences": [
           {
@@ -584,12 +261,7 @@
           },
           {
             "domain": "default",
-            "utterance": "Good Morning Bro",
-            "intent": "greeting.morning"
-          },
-          {
-            "domain": "default",
-            "utterance": "Morning Bro",
+            "utterance": "Good Morning",
             "intent": "greeting.morning"
           },
           {
@@ -599,12 +271,17 @@
           },
           {
             "domain": "default",
-            "utterance": "Good Day Man",
+            "utterance": "Morning",
             "intent": "greeting.morning"
           },
           {
             "domain": "default",
-            "utterance": "hey Morning bro",
+            "utterance": "Good Day",
+            "intent": "greeting.morning"
+          },
+          {
+            "domain": "default",
+            "utterance": "hey Morning",
             "intent": "greeting.morning"
           },
           {
@@ -619,7 +296,7 @@
           },
           {
             "domain": "default",
-            "utterance": "A beautiful morning to you!",
+            "utterance": "beautiful morning",
             "intent": "greeting.morning"
           },
           {
@@ -749,222 +426,57 @@
           },
           {
             "domain": "default",
-            "utterance": "How's it going?",
+            "utterance": "Hey",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hey, what's happening?",
+            "utterance": "Hi",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hey, how's your day?",
+            "utterance": "Hey",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hello, what's new?",
+            "utterance": "Hi",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hello, how are you doing?",
+            "utterance": "Hey?",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hi there, how's everything?",
+            "utterance": "Hi",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hey, what's going on?",
+            "utterance": "Hey",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hi, how's life?",
+            "utterance": "Hi?",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hey, how have you been?",
+            "utterance": "Hey?",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hi, what's the news?",
+            "utterance": "Hey",
             "intent": "greeting.casual"
           },
           {
             "domain": "default",
-            "utterance": "Hey, long time no see!",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hello, what's happening in your world?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, how's your day going?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hiya, what's cooking?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's up, buttercup?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's crackin'?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hi, how's the world treating you?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, how's your day treating you?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hi, how's your week going?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's the good word?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hi, what's cooking good looking?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, how's life treating you?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's going down?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's the haps?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hi, how are things?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's cooking good looking?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, how's everything in your world?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hiya, what's shaking?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, how's your day treating you?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's new with you?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's cooking in your neck of the woods?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hi, what's the good word?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, how's everything with you?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, how's your week going?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hi, what's the latest?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, how's the world treating you?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hi, what's crackin'?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's happening?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hi, what's the scoop?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's the news?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hi, what's going down?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, how's life?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hey, what's new?",
-            "intent": "greeting.casual"
-          },
-          {
-            "domain": "default",
-            "utterance": "Hiya, what's happening in your world?",
+            "utterance": "Hiya",
             "intent": "greeting.casual"
           },
           {
@@ -1024,16 +536,6 @@
           },
           {
             "domain": "default",
-            "utterance": "Have a good one",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "See you around",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
             "utterance": "Peace out",
             "intent": "greeting.farewell"
           },
@@ -1049,218 +551,83 @@
           },
           {
             "domain": "default",
-            "utterance": "Goodbye, take care",
+            "utterance": "Take care",
             "intent": "greeting.farewell"
           },
           {
             "domain": "default",
-            "utterance": "Catch you on the flip side",
+            "utterance": "later",
             "intent": "greeting.farewell"
           },
           {
             "domain": "default",
-            "utterance": "Gotta go, see you later",
+            "utterance": "Farewell",
             "intent": "greeting.farewell"
           },
           {
             "domain": "default",
-            "utterance": "Time to say goodbye",
+            "utterance": "Goodbye",
             "intent": "greeting.farewell"
           },
           {
             "domain": "default",
-            "utterance": "Until we meet again",
+            "utterance": "Farewell",
             "intent": "greeting.farewell"
           },
           {
             "domain": "default",
-            "utterance": "See you soon",
+            "utterance": "Goodbye,",
             "intent": "greeting.farewell"
           },
           {
             "domain": "default",
-            "utterance": "Stay in touch",
+            "utterance": "Farewell",
             "intent": "greeting.farewell"
           },
           {
             "domain": "default",
-            "utterance": "Have a good one",
+            "utterance": "goodbye",
             "intent": "greeting.farewell"
           },
           {
             "domain": "default",
-            "utterance": "Goodbye, my friend",
-            "intent": "greeting.farewell"
+            "utterance": "wida",
+            "intent": "greeting.pidgin"
           },
           {
             "domain": "default",
-            "utterance": "Take care, buddy",
-            "intent": "greeting.farewell"
+            "utterance": "wide",
+            "intent": "greeting.pidgin"
           },
           {
             "domain": "default",
-            "utterance": "Bye-bye for now",
-            "intent": "greeting.farewell"
+            "utterance": "who goes",
+            "intent": "greeting.pidgin"
           },
           {
             "domain": "default",
-            "utterance": "Till next time",
-            "intent": "greeting.farewell"
+            "utterance": "dieit",
+            "intent": "greeting.pidgin"
           },
           {
             "domain": "default",
-            "utterance": "Later, alligator",
-            "intent": "greeting.farewell"
+            "utterance": "howfa",
+            "intent": "greeting.pidgin"
           },
           {
             "domain": "default",
-            "utterance": "Goodbye, take it easy",
-            "intent": "greeting.farewell"
+            "utterance": "alaye",
+            "intent": "greeting.pidgin"
           },
           {
             "domain": "default",
-            "utterance": "Farewell, my friend",
-            "intent": "greeting.farewell"
+            "utterance": "manchie",
+            "intent": "greeting.pidgin"
           },
           {
             "domain": "default",
-            "utterance": "See you on the flip side",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Catch you on the rebound",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Goodbye, and be well",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Until we cross paths again",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Take care and goodbye",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Have a great one",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Goodbye, have a safe journey",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "See you soon, take care",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Farewell, until we meet again",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Goodbye, and have a blessed day",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "See you later, alligator",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Goodbye, stay safe",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Farewell, and take good care",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "See you around, partner",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Goodbye, and keep in touch",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Farewell, until next time",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Goodbye, and see you soon",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Take care, and farewell",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "See you later, mate",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Goodbye, have a wonderful day",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Farewell, and goodbye for now",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "See you on the other side",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Goodbye, take care of yourself",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Farewell, stay in touch",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "See you soon, buddy",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Goodbye, and have a great journey",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Farewell, till we meet again",
-            "intent": "greeting.farewell"
-          },
-          {
-            "domain": "default",
-            "utterance": "Take care and goodbye for now",
-            "intent": "greeting.farewell"
+            "utterance": "wetin dey xup",
+            "intent": "greeting.pidgin"
           }
         ],
         "domains": {
@@ -1279,18 +646,15 @@
             "features": {
               "good": 1,
               "morn": 1,
-              "bro": 1,
               "day": 1,
-              "man": 1,
               "hey": 1,
               "rise": 1,
               "and": 1,
               "shine": 1,
-              "a": 1,
               "beauti": 1,
-              "to": 1,
-              "you": 1,
               "wish": 1,
+              "you": 1,
+              "a": 1,
               "bright": 1,
               "ahead": 1,
               "sunshin": 1,
@@ -1322,41 +686,9 @@
               "buddi": 1,
               "hiya": 1,
               "dude": 1,
-              "how": 1,
-              "go": 1,
-              "happen": 1,
-              "your": 1,
-              "new": 1,
-              "are": 1,
-              "do": 1,
-              "everyth": 1,
-              "on": 1,
-              "life": 1,
-              "been": 1,
-              "news": 1,
-              "long": 1,
-              "no": 1,
-              "see": 1,
-              "in": 1,
-              "world": 1,
-              "cook": 1,
-              "buttercup": 1,
-              "crackin": 1,
-              "treat": 1,
-              "week": 1,
-              "word": 1,
-              "look": 1,
-              "down": 1,
-              "hap": 1,
-              "thing": 1,
-              "shake": 1,
-              "neck": 1,
-              "of": 1,
-              "wood": 1,
-              "latest": 1,
-              "scoop": 1,
               "goodby": 1,
               "farewel": 1,
+              "see": 1,
               "later": 1,
               "take": 1,
               "care": 1,
@@ -1369,59 +701,46 @@
               "all": 1,
               "best": 1,
               "so": 1,
+              "long": 1,
               "easi": 1,
               "until": 1,
               "next": 1,
-              "one": 1,
-              "around": 1,
               "peac": 1,
               "out": 1,
               "bye": 1,
               "for": 1,
               "now": 1,
-              "flip": 1,
-              "side": 1,
-              "gotta": 1,
-              "say": 1,
-              "soon": 1,
-              "stay": 1,
-              "touch": 1,
-              "bye-by": 1,
-              "allig": 1,
-              "rebound": 1,
-              "be": 1,
-              "well": 1,
-              "cross": 1,
-              "path": 1,
-              "safe": 1,
-              "journey": 1,
-              "partner": 1,
-              "keep": 1,
-              "wonder": 1,
-              "other": 1,
-              "yourself": 1
+              "wida": 1,
+              "wide": 1,
+              "who": 1,
+              "goe": 1,
+              "dieit": 1,
+              "howfa": 1,
+              "alay": 1,
+              "manchi": 1,
+              "wetin": 1,
+              "dey": 1,
+              "xup": 1
             },
             "intents": {
               "greeting.morning": 1,
               "greeting.casual": 1,
-              "greeting.farewell": 1
+              "greeting.farewell": 1,
+              "greeting.pidgin": 1
             },
             "intentFeatures": {
               "greeting.morning": {
                 "good": 1,
                 "morn": 1,
-                "bro": 1,
                 "day": 1,
-                "man": 1,
                 "hey": 1,
                 "rise": 1,
                 "and": 1,
                 "shine": 1,
-                "a": 1,
                 "beauti": 1,
-                "to": 1,
-                "you": 1,
                 "wish": 1,
+                "you": 1,
+                "a": 1,
                 "bright": 1,
                 "ahead": 1,
                 "sunshin": 1,
@@ -1460,48 +779,7 @@
                 "hiya": 1,
                 "friend": 1,
                 "dude": 1,
-                "mate": 1,
-                "how": 1,
-                "it": 1,
-                "go": 1,
-                "happen": 1,
-                "your": 1,
-                "day": 1,
-                "new": 1,
-                "are": 1,
-                "you": 1,
-                "do": 1,
-                "everyth": 1,
-                "on": 1,
-                "life": 1,
-                "have": 1,
-                "been": 1,
-                "the": 1,
-                "news": 1,
-                "long": 1,
-                "time": 1,
-                "no": 1,
-                "see": 1,
-                "in": 1,
-                "world": 1,
-                "cook": 1,
-                "buttercup": 1,
-                "crackin": 1,
-                "treat": 1,
-                "week": 1,
-                "good": 1,
-                "word": 1,
-                "look": 1,
-                "down": 1,
-                "hap": 1,
-                "thing": 1,
-                "shake": 1,
-                "with": 1,
-                "neck": 1,
-                "of": 1,
-                "wood": 1,
-                "latest": 1,
-                "scoop": 1
+                "mate": 1
               },
               "greeting.farewell": {
                 "goodby": 1,
@@ -1530,67 +808,36 @@
                 "until": 1,
                 "next": 1,
                 "time": 1,
-                "good": 1,
-                "one": 1,
-                "around": 1,
                 "peac": 1,
                 "out": 1,
                 "bye": 1,
                 "for": 1,
-                "now": 1,
-                "on": 1,
-                "flip": 1,
-                "side": 1,
-                "gotta": 1,
-                "go": 1,
-                "to": 1,
-                "say": 1,
-                "soon": 1,
-                "stay": 1,
-                "in": 1,
-                "touch": 1,
-                "my": 1,
-                "friend": 1,
-                "buddi": 1,
-                "bye-by": 1,
-                "allig": 1,
-                "rebound": 1,
-                "and": 1,
-                "be": 1,
-                "well": 1,
-                "cross": 1,
-                "path": 1,
-                "safe": 1,
-                "journey": 1,
-                "bless": 1,
-                "partner": 1,
-                "keep": 1,
-                "mate": 1,
-                "wonder": 1,
-                "other": 1,
-                "of": 1,
-                "yourself": 1
+                "now": 1
+              },
+              "greeting.pidgin": {
+                "wida": 1,
+                "wide": 1,
+                "who": 1,
+                "goe": 1,
+                "dieit": 1,
+                "howfa": 1,
+                "alay": 1,
+                "manchi": 1,
+                "wetin": 1,
+                "dey": 1,
+                "xup": 1
               }
             },
             "featuresToIntent": {
               "good": [
-                "greeting.morning",
-                "greeting.casual",
-                "greeting.farewell"
+                "greeting.morning"
               ],
               "morn": [
                 "greeting.morning"
               ],
-              "bro": [
-                "greeting.morning"
-              ],
               "day": [
                 "greeting.morning",
-                "greeting.casual",
                 "greeting.farewell"
-              ],
-              "man": [
-                "greeting.morning"
               ],
               "hey": [
                 "greeting.morning",
@@ -1600,30 +847,24 @@
                 "greeting.morning"
               ],
               "and": [
-                "greeting.morning",
-                "greeting.farewell"
+                "greeting.morning"
               ],
               "shine": [
                 "greeting.morning"
               ],
-              "a": [
-                "greeting.morning",
-                "greeting.farewell"
-              ],
               "beauti": [
                 "greeting.morning"
               ],
-              "to": [
-                "greeting.morning",
-                "greeting.farewell"
+              "wish": [
+                "greeting.morning"
               ],
               "you": [
                 "greeting.morning",
-                "greeting.casual",
                 "greeting.farewell"
               ],
-              "wish": [
-                "greeting.morning"
+              "a": [
+                "greeting.morning",
+                "greeting.farewell"
               ],
               "bright": [
                 "greeting.morning"
@@ -1639,8 +880,7 @@
               ],
               "mate": [
                 "greeting.morning",
-                "greeting.casual",
-                "greeting.farewell"
+                "greeting.casual"
               ],
               "hello": [
                 "greeting.morning",
@@ -1648,7 +888,6 @@
               ],
               "it": [
                 "greeting.morning",
-                "greeting.casual",
                 "greeting.farewell"
               ],
               "is": [
@@ -1657,17 +896,14 @@
               ],
               "time": [
                 "greeting.morning",
-                "greeting.casual",
                 "greeting.farewell"
               ],
               "my": [
-                "greeting.morning",
-                "greeting.farewell"
+                "greeting.morning"
               ],
               "friend": [
                 "greeting.morning",
-                "greeting.casual",
-                "greeting.farewell"
+                "greeting.casual"
               ],
               "marvel": [
                 "greeting.morning"
@@ -1676,12 +912,10 @@
                 "greeting.morning"
               ],
               "with": [
-                "greeting.morning",
-                "greeting.casual"
+                "greeting.morning"
               ],
               "the": [
                 "greeting.morning",
-                "greeting.casual",
                 "greeting.farewell"
               ],
               "dawn": [
@@ -1696,12 +930,10 @@
               ],
               "have": [
                 "greeting.morning",
-                "greeting.casual",
                 "greeting.farewell"
               ],
               "bless": [
-                "greeting.morning",
-                "greeting.farewell"
+                "greeting.morning"
               ],
               "love": [
                 "greeting.morning"
@@ -1728,8 +960,7 @@
                 "greeting.casual"
               ],
               "buddi": [
-                "greeting.casual",
-                "greeting.farewell"
+                "greeting.casual"
               ],
               "hiya": [
                 "greeting.casual"
@@ -1737,115 +968,13 @@
               "dude": [
                 "greeting.casual"
               ],
-              "how": [
-                "greeting.casual"
-              ],
-              "go": [
-                "greeting.casual",
-                "greeting.farewell"
-              ],
-              "happen": [
-                "greeting.casual"
-              ],
-              "your": [
-                "greeting.casual"
-              ],
-              "new": [
-                "greeting.casual"
-              ],
-              "are": [
-                "greeting.casual"
-              ],
-              "do": [
-                "greeting.casual"
-              ],
-              "everyth": [
-                "greeting.casual"
-              ],
-              "on": [
-                "greeting.casual",
-                "greeting.farewell"
-              ],
-              "life": [
-                "greeting.casual"
-              ],
-              "been": [
-                "greeting.casual"
-              ],
-              "news": [
-                "greeting.casual"
-              ],
-              "long": [
-                "greeting.casual",
-                "greeting.farewell"
-              ],
-              "no": [
-                "greeting.casual"
-              ],
-              "see": [
-                "greeting.casual",
-                "greeting.farewell"
-              ],
-              "in": [
-                "greeting.casual",
-                "greeting.farewell"
-              ],
-              "world": [
-                "greeting.casual"
-              ],
-              "cook": [
-                "greeting.casual"
-              ],
-              "buttercup": [
-                "greeting.casual"
-              ],
-              "crackin": [
-                "greeting.casual"
-              ],
-              "treat": [
-                "greeting.casual"
-              ],
-              "week": [
-                "greeting.casual"
-              ],
-              "word": [
-                "greeting.casual"
-              ],
-              "look": [
-                "greeting.casual"
-              ],
-              "down": [
-                "greeting.casual"
-              ],
-              "hap": [
-                "greeting.casual"
-              ],
-              "thing": [
-                "greeting.casual"
-              ],
-              "shake": [
-                "greeting.casual"
-              ],
-              "neck": [
-                "greeting.casual"
-              ],
-              "of": [
-                "greeting.casual",
-                "greeting.farewell"
-              ],
-              "wood": [
-                "greeting.casual"
-              ],
-              "latest": [
-                "greeting.casual"
-              ],
-              "scoop": [
-                "greeting.casual"
-              ],
               "goodby": [
                 "greeting.farewell"
               ],
               "farewel": [
+                "greeting.farewell"
+              ],
+              "see": [
                 "greeting.farewell"
               ],
               "later": [
@@ -1884,6 +1013,9 @@
               "so": [
                 "greeting.farewell"
               ],
+              "long": [
+                "greeting.farewell"
+              ],
               "easi": [
                 "greeting.farewell"
               ],
@@ -1891,12 +1023,6 @@
                 "greeting.farewell"
               ],
               "next": [
-                "greeting.farewell"
-              ],
-              "one": [
-                "greeting.farewell"
-              ],
-              "around": [
                 "greeting.farewell"
               ],
               "peac": [
@@ -1914,68 +1040,38 @@
               "now": [
                 "greeting.farewell"
               ],
-              "flip": [
-                "greeting.farewell"
+              "wida": [
+                "greeting.pidgin"
               ],
-              "side": [
-                "greeting.farewell"
+              "wide": [
+                "greeting.pidgin"
               ],
-              "gotta": [
-                "greeting.farewell"
+              "who": [
+                "greeting.pidgin"
               ],
-              "say": [
-                "greeting.farewell"
+              "goe": [
+                "greeting.pidgin"
               ],
-              "soon": [
-                "greeting.farewell"
+              "dieit": [
+                "greeting.pidgin"
               ],
-              "stay": [
-                "greeting.farewell"
+              "howfa": [
+                "greeting.pidgin"
               ],
-              "touch": [
-                "greeting.farewell"
+              "alay": [
+                "greeting.pidgin"
               ],
-              "bye-by": [
-                "greeting.farewell"
+              "manchi": [
+                "greeting.pidgin"
               ],
-              "allig": [
-                "greeting.farewell"
+              "wetin": [
+                "greeting.pidgin"
               ],
-              "rebound": [
-                "greeting.farewell"
+              "dey": [
+                "greeting.pidgin"
               ],
-              "be": [
-                "greeting.farewell"
-              ],
-              "well": [
-                "greeting.farewell"
-              ],
-              "cross": [
-                "greeting.farewell"
-              ],
-              "path": [
-                "greeting.farewell"
-              ],
-              "safe": [
-                "greeting.farewell"
-              ],
-              "journey": [
-                "greeting.farewell"
-              ],
-              "partner": [
-                "greeting.farewell"
-              ],
-              "keep": [
-                "greeting.farewell"
-              ],
-              "wonder": [
-                "greeting.farewell"
-              ],
-              "other": [
-                "greeting.farewell"
-              ],
-              "yourself": [
-                "greeting.farewell"
+              "xup": [
+                "greeting.pidgin"
               ]
             },
             "neuralNetwork": {
@@ -1993,18 +1089,15 @@
               "features": [
                 "good",
                 "morn",
-                "bro",
                 "day",
-                "man",
                 "hey",
                 "rise",
                 "and",
                 "shine",
-                "a",
                 "beauti",
-                "to",
-                "you",
                 "wish",
+                "you",
+                "a",
                 "bright",
                 "ahead",
                 "sunshin",
@@ -2036,41 +1129,9 @@
                 "buddi",
                 "hiya",
                 "dude",
-                "how",
-                "go",
-                "happen",
-                "your",
-                "new",
-                "are",
-                "do",
-                "everyth",
-                "on",
-                "life",
-                "been",
-                "news",
-                "long",
-                "no",
-                "see",
-                "in",
-                "world",
-                "cook",
-                "buttercup",
-                "crackin",
-                "treat",
-                "week",
-                "word",
-                "look",
-                "down",
-                "hap",
-                "thing",
-                "shake",
-                "neck",
-                "of",
-                "wood",
-                "latest",
-                "scoop",
                 "goodby",
                 "farewel",
+                "see",
                 "later",
                 "take",
                 "care",
@@ -2083,421 +1144,353 @@
                 "all",
                 "best",
                 "so",
+                "long",
                 "easi",
                 "until",
                 "next",
-                "one",
-                "around",
                 "peac",
                 "out",
                 "bye",
                 "for",
                 "now",
-                "flip",
-                "side",
-                "gotta",
-                "say",
-                "soon",
-                "stay",
-                "touch",
-                "bye-by",
-                "allig",
-                "rebound",
-                "be",
-                "well",
-                "cross",
-                "path",
-                "safe",
-                "journey",
-                "partner",
-                "keep",
-                "wonder",
-                "other",
-                "yourself"
+                "wida",
+                "wide",
+                "who",
+                "goe",
+                "dieit",
+                "howfa",
+                "alay",
+                "manchi",
+                "wetin",
+                "dey",
+                "xup"
               ],
               "intents": [
                 "greeting.morning",
                 "greeting.casual",
-                "greeting.farewell"
+                "greeting.farewell",
+                "greeting.pidgin"
               ],
               "perceptrons": [
                 [
-                  -0.03551013022661209,
-                  14.17512321472168,
-                  0.0012977076694369316,
-                  4.732297897338867,
-                  9.434453010559082,
-                  -0.07790160924196243,
-                  5.045775890350342,
-                  1.2062830924987793,
-                  7.877981662750244,
-                  0.33463138341903687,
-                  0.35633620619773865,
-                  0.1527603715658188,
-                  -0.8820511698722839,
-                  2.1925742626190186,
-                  3.8776297569274902,
-                  3.8776297569274902,
-                  -0.005582332145422697,
-                  0.49966591596603394,
-                  -0.5423694252967834,
-                  -0.8206875324249268,
-                  1.4543691873550415,
-                  -1.44550359249115,
-                  0.7701547741889954,
-                  0.2158096879720688,
-                  -0.22178113460540771,
-                  -1.6851496696472168,
-                  4.282411098480225,
-                  3.9372951984405518,
-                  1.627974271774292,
-                  4.282411098480225,
-                  2.8318684101104736,
-                  2.21562123298645,
-                  -2.377119779586792,
-                  1.9979352951049805,
-                  -0.0034563206136226654,
-                  -0.0034563206136226654,
-                  -1.641278862953186,
-                  -1.8596248626708984,
-                  -1.0993841886520386,
-                  -1.0806936025619507,
-                  -1.0656319856643677,
-                  -1.0332854986190796,
-                  -0.5296279788017273,
-                  -1.1082656383514404,
-                  -0.5064917206764221,
-                  -2.252469301223755,
-                  -0.30437934398651123,
-                  -0.11902166903018951,
-                  -1.1066919565200806,
-                  -0.3062559962272644,
-                  -0.33251792192459106,
-                  -0.33251792192459106,
-                  -0.16437119245529175,
-                  -0.7747290134429932,
-                  -0.026590481400489807,
-                  -0.08140925318002701,
-                  -0.025985071435570717,
-                  -0.5890713334083557,
-                  -0.09190528094768524,
-                  -1.0769981145858765,
-                  -0.42799457907676697,
-                  -0.057702623307704926,
-                  -0.1738739162683487,
-                  0,
-                  0,
-                  -0.408812016248703,
-                  0,
-                  -0.4795762002468109,
-                  -0.16595129668712616,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  -6.041868686676025,
-                  -1.6230990886688232,
-                  -1.0312016010284424,
-                  -1.9683594703674316,
-                  -1.5334341526031494,
-                  -0.6822795271873474,
-                  -0.3283071517944336,
-                  -0.3283071517944336,
-                  -0.3283071517944336,
-                  -1.1242291927337646,
-                  -2.912566900253296,
-                  -1.2041643857955933,
-                  -1.2041643857955933,
-                  -0.4571078419685364,
-                  -0.3900287449359894,
-                  -0.6831845045089722,
-                  -0.9952706694602966,
-                  -1.2618740797042847,
-                  -0.26202651858329773,
-                  -0.5044137239456177,
-                  -0.5044137239456177,
-                  -0.2465679794549942,
-                  -0.44475066661834717,
-                  -0.44475066661834717,
-                  -0.42946892976760864,
-                  -0.42946892976760864,
-                  -0.004494000691920519,
-                  -0.17504747211933136,
-                  -0.15355725586414337,
-                  -0.21729476749897003,
-                  -0.41994985938072205,
-                  -0.17553609609603882,
-                  -0.025142552331089973,
-                  -0.32416731119155884,
-                  -0.502856969833374,
-                  -0.502856969833374,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  -0.16158543527126312,
-                  0,
-                  0,
-                  0,
-                  0.14960080378853294
+                  0.8101545572280884,
+                  13.960078239440918,
+                  12.28603744506836,
+                  -0.31585925817489624,
+                  3.1343793869018555,
+                  5.379814624786377,
+                  5.379814624786377,
+                  0.05048011988401413,
+                  1.266807198524475,
+                  0.13722307980060577,
+                  -1.7710422277450562,
+                  1.058243751525879,
+                  1.058243751525879,
+                  -0.9679474830627441,
+                  0.5163382291793823,
+                  -0.5155732035636902,
+                  -0.735628604888916,
+                  0.6025364398956299,
+                  -0.33110296726226807,
+                  0.45177894830703735,
+                  -0.2206130027770996,
+                  -0.6755123734474182,
+                  0.21330580115318298,
+                  3.8349976539611816,
+                  3.8349976539611816,
+                  2.378331184387207,
+                  3.8349976539611816,
+                  2.2444849014282227,
+                  0.8840107917785645,
+                  -3.038421630859375,
+                  4.553263187408447,
+                  -0.48080459237098694,
+                  -0.48080459237098694,
+                  -1.7809333801269531,
+                  -1.358977198600769,
+                  -0.9692253470420837,
+                  -0.9544182419776917,
+                  -0.9279437065124512,
+                  -0.9975178241729736,
+                  -0.541664719581604,
+                  -1.218559741973877,
+                  -0.46805500984191895,
+                  -0.8931783437728882,
+                  -0.8905384540557861,
+                  -0.5480049252510071,
+                  -1.273343801498413,
+                  -0.877457857131958,
+                  -0.4261983633041382,
+                  -0.3021067678928375,
+                  -0.3021067678928375,
+                  -0.3021067678928375,
+                  -0.3021067678928375,
+                  -0.4925512969493866,
+                  -7.595269680023193,
+                  -1.4489060640335083,
+                  -1.4489060640335083,
+                  -0.37846916913986206,
+                  -0.37846916913986206,
+                  -0.42522531747817993,
+                  -0.5766245722770691,
+                  -0.5766245722770691,
+                  -0.3501898944377899,
+                  -0.3501898944377899,
+                  -0.26163583993911743,
+                  -0.26163583993911743,
+                  -0.26163583993911743,
+                  -0.5616455078125,
+                  -0.5580537915229797,
+                  -0.3184259235858917,
+                  -0.3184259235858917,
+                  -0.5536291599273682,
+                  -0.5506676435470581,
+                  -0.5479149222373962,
+                  -0.5453331470489502,
+                  -0.20864081382751465,
+                  -0.20864081382751465,
+                  -0.20864081382751465,
+                  0.3670072907675191
                 ],
                 [
-                  -1.1480095386505127,
-                  -15.16441535949707,
-                  -2.795210838317871,
-                  -3.2076056003570557,
-                  -2.5510640144348145,
-                  7.389627933502197,
-                  -0.6875708103179932,
-                  -4.558015823364258,
-                  -4.328922271728516,
-                  -2.4600749015808105,
+                  -1.8227888345718384,
+                  -14.259121894836426,
+                  -2.621843099594116,
+                  9.823359489440918,
+                  -0.42688247561454773,
+                  -2.369023084640503,
+                  -2.369023084640503,
+                  -0.0050805723294615746,
                   0,
-                  -0.2957928478717804,
-                  -1.7087661027908325,
+                  -1.6946239471435547,
+                  -1.1457114219665527,
                   0,
                   0,
                   0,
+                  -0.006941458210349083,
+                  0.06345454603433609,
+                  9.836385726928711,
+                  -1.5143598318099976,
+                  3.5263402462005615,
+                  -2.0651068687438965,
                   0,
-                  -0.08663197606801987,
-                  0.01506585069000721,
-                  7.371279716491699,
-                  4.400238513946533,
-                  -0.2754122018814087,
-                  -3.195535659790039,
-                  -1.8822202682495117,
-                  0.013778632506728172,
+                  0.04795660451054573,
                   0,
-                  -3.028700590133667,
-                  1.708643913269043,
-                  -2.5344767570495605,
-                  -3.028700590133667,
-                  -3.622429132461548,
-                  5.62661075592041,
-                  -1.8899753093719482,
-                  0,
-                  0,
-                  0,
-                  7.382019519805908,
-                  2.0392909049987793,
-                  7.40395975112915,
-                  7.404191017150879,
-                  7.404425621032715,
-                  0.003617319744080305,
-                  0.014706631191074848,
-                  7.388059139251709,
-                  0.014332749880850315,
-                  3.0208659172058105,
-                  0.198282852768898,
-                  -1.7536877393722534,
-                  0.37439385056495667,
-                  -1.7448222637176514,
-                  -1.4292141199111938,
-                  0.13215553760528564,
-                  -2.7265591621398926,
-                  -1.9982980489730835,
-                  -2.7620460987091064,
-                  0.5702679753303528,
-                  0.778881311416626,
-                  -0.5578858852386475,
-                  5.764671802520752,
-                  -2.0193450450897217,
-                  -0.08934573829174042,
-                  -0.2811329662799835,
-                  -1.7534949779510498,
-                  -7.376802921295166,
-                  -1.7430756092071533,
-                  1.7945504188537598,
-                  -3.302443265914917,
-                  1.937709093093872,
-                  1.160979151725769,
-                  -1.950152039527893,
-                  0.7973276376724243,
-                  -1.5611519813537598,
-                  -1.7351250648498535,
-                  0.7532079219818115,
-                  0.7532079219818115,
-                  0.7532079219818115,
-                  0.7961817383766174,
-                  0.7949380278587341,
-                  -6.881620407104492,
-                  -6.881367206573486,
-                  -6.879971027374268,
-                  -6.7902913093566895,
-                  -2.2981629371643066,
-                  -1.9457104206085205,
-                  -1.8118292093276978,
-                  -1.3163942098617554,
-                  -1.8118292093276978,
-                  -1.1556785106658936,
-                  -1.1284373998641968,
-                  -2.1938915252685547,
-                  -2.1938915252685547,
-                  -6.322741985321045,
-                  -4.483520984649658,
-                  -2.2702102661132812,
-                  -2.4028208255767822,
-                  -1.4063960313796997,
-                  -3.154876947402954,
-                  -3.4416706562042236,
-                  -3.4416706562042236,
-                  -1.3770060539245605,
-                  -2.753786563873291,
-                  -2.753786563873291,
-                  -0.28462713956832886,
-                  -0.28462713956832886,
-                  -0.058324094861745834,
-                  -0.2957928478717804,
-                  -3.5278842449188232,
-                  -3.4264230728149414,
-                  -3.3682312965393066,
-                  -1.3767176866531372,
-                  -0.799009382724762,
-                  -0.04207571968436241,
-                  -0.14031453430652618,
-                  -0.14031453430652618,
-                  -0.49538540840148926,
-                  -0.49538540840148926,
-                  -0.09351038932800293,
-                  0,
-                  -0.32257410883903503,
-                  -0.027991583570837975,
+                  -0.7320986390113831,
+                  -0.7320986390113831,
+                  -2.2478818893432617,
+                  -0.7320986390113831,
+                  -1.9088029861450195,
+                  2.202657461166382,
+                  -1.1457114219665527,
                   0,
                   0,
                   0,
-                  6.884989796180865
+                  9.840510368347168,
+                  4.111486434936523,
+                  9.838312149047852,
+                  9.836746215820312,
+                  9.834932327270508,
+                  0.009752994403243065,
+                  0.04250509291887283,
+                  9.838360786437988,
+                  0.05500384047627449,
+                  -4.58212423324585,
+                  -4.5825700759887695,
+                  -0.8358956575393677,
+                  -4.530073642730713,
+                  -2.8358287811279297,
+                  -1.9050315618515015,
+                  -1.2618873119354248,
+                  -1.2618873119354248,
+                  -1.2618873119354248,
+                  -1.2618873119354248,
+                  -0.6304597854614258,
+                  -1.1457114219665527,
+                  -1.4476596117019653,
+                  -1.4476596117019653,
+                  -2.291475534439087,
+                  -2.291475534439087,
+                  -0.8538851141929626,
+                  -1.4323477745056152,
+                  -1.4323477745056152,
+                  -2.2822606563568115,
+                  -2.2822606563568115,
+                  -1.5454024076461792,
+                  -1.5454024076461792,
+                  -1.5454024076461792,
+                  -4.4450907707214355,
+                  -4.444239616394043,
+                  -2.230231285095215,
+                  -2.230231285095215,
+                  -4.443112850189209,
+                  -4.441956996917725,
+                  -4.4406561851501465,
+                  -4.439202785491943,
+                  -1.4816899299621582,
+                  -1.4816899299621582,
+                  -1.4816899299621582,
+                  4.445313433519399
                 ],
                 [
-                  -0.12500981986522675,
-                  -13.916487693786621,
-                  -1.6223914623260498,
-                  -0.8208265900611877,
-                  -11.2120943069458,
-                  -12.782675743103027,
-                  -5.299314022064209,
-                  -0.04560164734721184,
-                  -6.851322650909424,
-                  -0.4219440519809723,
-                  -1.1972715854644775,
-                  0.11246169358491898,
-                  -1.3837387561798096,
-                  -3.411789655685425,
-                  -3.101424217224121,
-                  -3.101424217224121,
-                  -0.06894669681787491,
-                  -0.12676945328712463,
-                  0.1137952208518982,
-                  -12.085061073303223,
-                  -1.2972770929336548,
-                  -5.635195732116699,
-                  -0.5951628684997559,
-                  0.7955197095870972,
-                  0.18439342081546783,
-                  -0.21450024843215942,
-                  -3.81919002532959,
-                  -3.81919002532959,
-                  -0.792016863822937,
-                  -3.81919002532959,
-                  -1.5478925704956055,
-                  -3.8014602661132812,
-                  3.329658031463623,
-                  -1.1475480794906616,
+                  -3.992616891860962,
+                  -6.345158576965332,
+                  0.5946635007858276,
+                  -3.5811476707458496,
+                  -1.0450119972229004,
+                  -1.6117093563079834,
+                  -1.6117093563079834,
+                  -0.26164257526397705,
+                  -2.471233606338501,
+                  -0.8362061381340027,
+                  1.1348923444747925,
+                  -2.044485569000244,
+                  -2.044485569000244,
+                  -0.03477979078888893,
+                  -0.1282452791929245,
+                  -0.3158618211746216,
+                  -3.3887436389923096,
+                  1.8387796878814697,
+                  -1.4649977684020996,
+                  3.2538559436798096,
+                  0,
+                  -0.2410014271736145,
+                  -0.33325883746147156,
+                  -1.9698950052261353,
+                  -1.9698950052261353,
+                  2.3037710189819336,
+                  -1.9698950052261353,
+                  -0.47724753618240356,
+                  -1.4333176612854004,
+                  3.658888101577759,
+                  -1.8499730825424194,
                   0,
                   0,
-                  -12.091723442077637,
-                  -2.778247594833374,
-                  -12.076969146728516,
-                  -12.070252418518066,
-                  -12.063506126403809,
-                  -2.206758499145508,
-                  0.6706852316856384,
-                  -12.052038192749023,
-                  -0.17397408187389374,
-                  -4.135451316833496,
-                  -1.119254469871521,
-                  -0.19103828072547913,
-                  -0.18985126912593842,
-                  -0.08113224059343338,
-                  -0.6673690676689148,
-                  -0.621803879737854,
-                  -0.01481736358255148,
-                  1.9296791553497314,
-                  -0.022274231538176537,
-                  -0.9069877862930298,
-                  -0.14983710646629333,
-                  -0.4950122535228729,
-                  -3.0046043395996094,
-                  0.993480384349823,
-                  0.049912843853235245,
-                  -0.2811126410961151,
-                  -0.006292272359132767,
+                  -3.548177719116211,
+                  -0.8925294280052185,
+                  -3.3879382610321045,
+                  -3.3873798847198486,
+                  -3.3867311477661133,
+                  -1.167607307434082,
+                  -0.32223764061927795,
+                  -3.3884596824645996,
+                  -0.21010951697826385,
+                  10.897037506103516,
+                  10.89703369140625,
+                  0.8434334993362427,
+                  10.892093658447266,
+                  6.651993751525879,
+                  4.245236396789551,
+                  2.724325180053711,
+                  2.724325180053711,
+                  2.724325180053711,
+                  2.724325180053711,
+                  0.8446041941642761,
+                  5.509017467498779,
+                  4.296870708465576,
+                  4.296870708465576,
+                  5.448825359344482,
+                  5.448825359344482,
+                  2.406769275665283,
+                  3.8218441009521484,
+                  3.8218441009521484,
+                  5.448845863342285,
+                  5.448845863342285,
+                  3.6324198246002197,
+                  3.6324198246002197,
+                  3.6324198246002197,
+                  -3.5712671279907227,
+                  -3.5252139568328857,
+                  -2.1776010990142822,
+                  -2.1776010990142822,
+                  -3.471790313720703,
+                  -3.444441556930542,
+                  -3.4220163822174072,
+                  -3.4064271450042725,
+                  -1.4314064979553223,
+                  -1.4314064979553223,
+                  -1.4314064979553223,
+                  3.388701506541292
+                ],
+                [
+                  -2.122361183166504,
+                  -4.127076625823975,
+                  -2.1166629791259766,
+                  -4.09092903137207,
+                  -1.0517373085021973,
+                  -1.5520069599151611,
+                  -1.5520069599151611,
+                  -0.3752102255821228,
+                  -0.4800056219100952,
+                  -1.2137020826339722,
+                  -1.0334107875823975,
+                  -0.4383682310581207,
+                  -0.4383682310581207,
+                  -0.026315126568078995,
+                  -0.21506597101688385,
+                  -0.35985520482063293,
+                  -4.085190296173096,
+                  -0.8876059055328369,
+                  -1.277141809463501,
+                  -1.4402143955230713,
+                  -0.003560195676982403,
+                  -0.24872715771198273,
+                  -0.018569093197584152,
+                  -0.9200904965400696,
+                  -0.9200904965400696,
+                  -2.0080151557922363,
+                  -0.9200904965400696,
+                  -0.421360045671463,
+                  -1.659854769706726,
+                  -0.49005749821662903,
+                  -0.028987539932131767,
                   0,
                   0,
-                  -0.06239280104637146,
-                  0,
-                  0,
-                  0,
-                  0,
-                  0,
-                  -0.02526966668665409,
-                  0,
-                  0,
-                  -0.0650065541267395,
-                  0,
-                  0,
-                  0,
-                  0.9963042736053467,
-                  0.8258841037750244,
-                  2.2561755180358887,
-                  1.248671531677246,
-                  -0.13332802057266235,
-                  0.9572242498397827,
-                  0.2997339367866516,
-                  0.029790056869387627,
-                  0.2997339367866516,
-                  1.0290783643722534,
-                  -0.09488236159086227,
-                  1.380541205406189,
-                  1.380541205406189,
-                  2.5139825344085693,
-                  1.3954447507858276,
-                  0.7478609681129456,
-                  1.405335545539856,
-                  -0.8432543277740479,
-                  2.4763736724853516,
-                  0.9974476099014282,
-                  0.9974476099014282,
-                  2.147709608078003,
-                  -0.029339611530303955,
-                  -0.029339611530303955,
-                  0.3570806384086609,
-                  0.7958780527114868,
-                  1.1873600482940674,
-                  1.3916409015655518,
-                  1.6456663608551025,
-                  1.1834982633590698,
-                  0.2640646696090698,
-                  2.1155943870544434,
-                  -0.14051590859889984,
-                  1.1353001594543457,
-                  0.49508771300315857,
-                  0.49508771300315857,
-                  0.2687229812145233,
-                  0.2687229812145233,
-                  -0.18586409091949463,
-                  -1.7711504697799683,
-                  -0.16505448520183563,
-                  0.7098250389099121,
-                  -1.092342734336853,
-                  0.43957310914993286,
-                  -0.0650065541267395,
-                  12.278832542264281
+                  -4.090130805969238,
+                  -1.1598798036575317,
+                  -4.084048271179199,
+                  -4.082880020141602,
+                  -4.081568241119385,
+                  -1.1069868803024292,
+                  -0.335989385843277,
+                  -4.086031913757324,
+                  -0.22511473298072815,
+                  -4.086060047149658,
+                  -4.086061000823975,
+                  -0.382057249546051,
+                  -4.0857343673706055,
+                  -2.4282517433166504,
+                  -1.657901406288147,
+                  -1.0215522050857544,
+                  -1.0215522050857544,
+                  -1.0215522050857544,
+                  -1.0215522050857544,
+                  -0.26693251729011536,
+                  -0.4460727274417877,
+                  -1.0390679836273193,
+                  -1.0390679836273193,
+                  -2.042987823486328,
+                  -2.042987823486328,
+                  -0.7703438401222229,
+                  -1.322952389717102,
+                  -1.322952389717102,
+                  -2.042963981628418,
+                  -2.042963981628418,
+                  -1.362018346786499,
+                  -1.362018346786499,
+                  -1.362018346786499,
+                  10.199422836303711,
+                  10.199105262756348,
+                  5.099939346313477,
+                  5.099939346313477,
+                  10.197799682617188,
+                  10.196300506591797,
+                  10.194548606872559,
+                  10.19253158569336,
+                  3.399578094482422,
+                  3.399578094482422,
+                  3.399578094482422,
+                  4.086856800847684
                 ]
               ]
             }
@@ -2513,11 +1506,7 @@
       ],
       [
         "en",
-        "Good Morning Bro"
-      ],
-      [
-        "en",
-        "Morning Bro"
+        "Good Morning"
       ],
       [
         "en",
@@ -2525,11 +1514,15 @@
       ],
       [
         "en",
-        "Good Day Man"
+        "Morning"
       ],
       [
         "en",
-        "hey Morning bro"
+        "Good Day"
+      ],
+      [
+        "en",
+        "hey Morning"
       ],
       [
         "en",
@@ -2541,7 +1534,7 @@
       ],
       [
         "en",
-        "A beautiful morning to you!"
+        "beautiful morning"
       ],
       [
         "en",
@@ -2645,179 +1638,47 @@
       ],
       [
         "en",
-        "How's it going?"
+        "Hey"
       ],
       [
         "en",
-        "Hey, what's happening?"
+        "Hi"
       ],
       [
         "en",
-        "Hey, how's your day?"
+        "Hey"
       ],
       [
         "en",
-        "Hello, what's new?"
+        "Hi"
       ],
       [
         "en",
-        "Hello, how are you doing?"
+        "Hey?"
       ],
       [
         "en",
-        "Hi there, how's everything?"
+        "Hi"
       ],
       [
         "en",
-        "Hey, what's going on?"
+        "Hey"
       ],
       [
         "en",
-        "Hi, how's life?"
+        "Hi?"
       ],
       [
         "en",
-        "Hey, how have you been?"
+        "Hey?"
       ],
       [
         "en",
-        "Hi, what's the news?"
+        "Hey"
       ],
       [
         "en",
-        "Hey, long time no see!"
-      ],
-      [
-        "en",
-        "Hello, what's happening in your world?"
-      ],
-      [
-        "en",
-        "Hey, how's your day going?"
-      ],
-      [
-        "en",
-        "Hiya, what's cooking?"
-      ],
-      [
-        "en",
-        "Hey, what's up, buttercup?"
-      ],
-      [
-        "en",
-        "Hey, what's crackin'?"
-      ],
-      [
-        "en",
-        "Hi, how's the world treating you?"
-      ],
-      [
-        "en",
-        "Hey, how's your day treating you?"
-      ],
-      [
-        "en",
-        "Hi, how's your week going?"
-      ],
-      [
-        "en",
-        "Hey, what's the good word?"
-      ],
-      [
-        "en",
-        "Hi, what's cooking good looking?"
-      ],
-      [
-        "en",
-        "Hey, how's life treating you?"
-      ],
-      [
-        "en",
-        "Hey, what's going down?"
-      ],
-      [
-        "en",
-        "Hey, what's the haps?"
-      ],
-      [
-        "en",
-        "Hi, how are things?"
-      ],
-      [
-        "en",
-        "Hey, what's cooking good looking?"
-      ],
-      [
-        "en",
-        "Hey, how's everything in your world?"
-      ],
-      [
-        "en",
-        "Hiya, what's shaking?"
-      ],
-      [
-        "en",
-        "Hey, how's your day treating you?"
-      ],
-      [
-        "en",
-        "Hey, what's new with you?"
-      ],
-      [
-        "en",
-        "Hey, what's cooking in your neck of the woods?"
-      ],
-      [
-        "en",
-        "Hi, what's the good word?"
-      ],
-      [
-        "en",
-        "Hey, how's everything with you?"
-      ],
-      [
-        "en",
-        "Hey, how's your week going?"
-      ],
-      [
-        "en",
-        "Hi, what's the latest?"
-      ],
-      [
-        "en",
-        "Hey, how's the world treating you?"
-      ],
-      [
-        "en",
-        "Hi, what's crackin'?"
-      ],
-      [
-        "en",
-        "Hey, what's happening?"
-      ],
-      [
-        "en",
-        "Hi, what's the scoop?"
-      ],
-      [
-        "en",
-        "Hey, what's the news?"
-      ],
-      [
-        "en",
-        "Hi, what's going down?"
-      ],
-      [
-        "en",
-        "Hey, how's life?"
-      ],
-      [
-        "en",
-        "Hey, what's new?"
-      ],
-      [
-        "en",
-        "Hiya, what's happening in your world?"
+        "Hiya"
       ],
       [
         "en",
@@ -2865,14 +1726,6 @@
       ],
       [
         "en",
-        "Have a good one"
-      ],
-      [
-        "en",
-        "See you around"
-      ],
-      [
-        "en",
         "Peace out"
       ],
       [
@@ -2885,175 +1738,67 @@
       ],
       [
         "en",
-        "Goodbye, take care"
+        "Take care"
       ],
       [
         "en",
-        "Catch you on the flip side"
+        "later"
       ],
       [
         "en",
-        "Gotta go, see you later"
+        "Farewell"
       ],
       [
         "en",
-        "Time to say goodbye"
+        "Goodbye"
       ],
       [
         "en",
-        "Until we meet again"
+        "Farewell"
       ],
       [
         "en",
-        "See you soon"
+        "Goodbye,"
       ],
       [
         "en",
-        "Stay in touch"
+        "Farewell"
       ],
       [
         "en",
-        "Have a good one"
+        "goodbye"
       ],
       [
         "en",
-        "Goodbye, my friend"
+        "wida"
       ],
       [
         "en",
-        "Take care, buddy"
+        "wide"
       ],
       [
         "en",
-        "Bye-bye for now"
+        "who goes"
       ],
       [
         "en",
-        "Till next time"
+        "dieit"
       ],
       [
         "en",
-        "Later, alligator"
+        "howfa"
       ],
       [
         "en",
-        "Goodbye, take it easy"
+        "alaye"
       ],
       [
         "en",
-        "Farewell, my friend"
+        "manchie"
       ],
       [
         "en",
-        "See you on the flip side"
-      ],
-      [
-        "en",
-        "Catch you on the rebound"
-      ],
-      [
-        "en",
-        "Goodbye, and be well"
-      ],
-      [
-        "en",
-        "Until we cross paths again"
-      ],
-      [
-        "en",
-        "Take care and goodbye"
-      ],
-      [
-        "en",
-        "Have a great one"
-      ],
-      [
-        "en",
-        "Goodbye, have a safe journey"
-      ],
-      [
-        "en",
-        "See you soon, take care"
-      ],
-      [
-        "en",
-        "Farewell, until we meet again"
-      ],
-      [
-        "en",
-        "Goodbye, and have a blessed day"
-      ],
-      [
-        "en",
-        "See you later, alligator"
-      ],
-      [
-        "en",
-        "Goodbye, stay safe"
-      ],
-      [
-        "en",
-        "Farewell, and take good care"
-      ],
-      [
-        "en",
-        "See you around, partner"
-      ],
-      [
-        "en",
-        "Goodbye, and keep in touch"
-      ],
-      [
-        "en",
-        "Farewell, until next time"
-      ],
-      [
-        "en",
-        "Goodbye, and see you soon"
-      ],
-      [
-        "en",
-        "Take care, and farewell"
-      ],
-      [
-        "en",
-        "See you later, mate"
-      ],
-      [
-        "en",
-        "Goodbye, have a wonderful day"
-      ],
-      [
-        "en",
-        "Farewell, and goodbye for now"
-      ],
-      [
-        "en",
-        "See you on the other side"
-      ],
-      [
-        "en",
-        "Goodbye, take care of yourself"
-      ],
-      [
-        "en",
-        "Farewell, stay in touch"
-      ],
-      [
-        "en",
-        "See you soon, buddy"
-      ],
-      [
-        "en",
-        "Goodbye, and have a great journey"
-      ],
-      [
-        "en",
-        "Farewell, till we meet again"
-      ],
-      [
-        "en",
-        "Take care and goodbye for now"
+        "wetin dey xup"
       ]
     ]
   },
@@ -3073,10 +1818,232 @@
       "en": {
         "greeting.morning": [
           {
-            "answer": "It Is Past Morning Already"
+            "answer": "Good morning to you too!"
           },
           {
-            "answer": "Hey, It Is Past Morning, But Thanks, How May I Be Of Help Today?"
+            "answer": "Hello, have a great day!"
+          },
+          {
+            "answer": "Thank you, and good morning!"
+          },
+          {
+            "answer": "Wishing you a fantastic morning!"
+          },
+          {
+            "answer": "Morning vibes are the best!"
+          },
+          {
+            "answer": "Hey, it's a beautiful morning!"
+          },
+          {
+            "answer": "Rise and shine with joy!"
+          },
+          {
+            "answer": "Thanks, I hope you have a wonderful day!"
+          },
+          {
+            "answer": "Good morning, my friend!"
+          },
+          {
+            "answer": "May your day be filled with sunshine!"
+          },
+          {
+            "answer": "Greetings with a smile!"
+          },
+          {
+            "answer": "Have an amazing morning!"
+          },
+          {
+            "answer": "Thank you, wishing you the same!"
+          },
+          {
+            "answer": "Good morning, have a splendid day!"
+          },
+          {
+            "answer": "Rise and greet the day with positivity!"
+          },
+          {
+            "answer": "Hello, have a blessed morning!"
+          },
+          {
+            "answer": "Thank you, and a happy morning to you!"
+          },
+          {
+            "answer": "Sending you warm morning wishes!"
+          },
+          {
+            "answer": "Have a lovely morning!"
+          },
+          {
+            "answer": "Good morning, may your day be magical!"
+          },
+          {
+            "answer": "Thank you, wishing you a wonderful morning!"
+          },
+          {
+            "answer": "Have a fantastic day ahead!"
+          },
+          {
+            "answer": "Hello, rise and conquer the day!"
+          },
+          {
+            "answer": "Good morning, enjoy the day!"
+          },
+          {
+            "answer": "Wishing you a peaceful morning!"
+          },
+          {
+            "answer": "Thank you, have a great morning too!"
+          },
+          {
+            "answer": "Greetings with a cup of coffee!"
+          },
+          {
+            "answer": "Have an awesome day!"
+          },
+          {
+            "answer": "Good morning, be awesome today!"
+          },
+          {
+            "answer": "Thank you, you too have a great morning!"
+          },
+          {
+            "answer": "Wishing you a day full of smiles!"
+          },
+          {
+            "answer": "Hello, have an incredible morning!"
+          },
+          {
+            "answer": "Good morning, let's make it a great day!"
+          },
+          {
+            "answer": "Thank you, have a splendid morning!"
+          },
+          {
+            "answer": "Have a productive day ahead!"
+          },
+          {
+            "answer": "Good morning, shine like the sun!"
+          },
+          {
+            "answer": "Thank you, a wonderful morning to you!"
+          },
+          {
+            "answer": "Wishing you a morning full of positivity!"
+          },
+          {
+            "answer": "Hello, may your morning be as bright as your smile!"
+          },
+          {
+            "answer": "Good morning, stay positive and happy!"
+          },
+          {
+            "answer": "Thank you, have an amazing morning!"
+          },
+          {
+            "answer": "Have a day filled with happiness and success!"
+          },
+          {
+            "answer": "Good morning, start your day with a positive attitude!"
+          },
+          {
+            "answer": "Thank you, have a wonderful morning!"
+          },
+          {
+            "answer": "Wishing you a morning full of inspiration!"
+          },
+          {
+            "answer": "Hello, have a refreshing morning!"
+          },
+          {
+            "answer": "Good morning, stay motivated and conquer your goals!"
+          },
+          {
+            "answer": "Thank you, have a fabulous morning!"
+          },
+          {
+            "answer": "Have a day filled with positivity and kindness!"
+          },
+          {
+            "answer": "Good morning, may your day be filled with positivity!"
+          },
+          {
+            "answer": "Thank you, have a beautiful morning!"
+          },
+          {
+            "answer": "Wishing you a morning filled with joy and excitement!"
+          },
+          {
+            "answer": "Hello, have a wonderful and productive day!"
+          },
+          {
+            "answer": "Good morning, stay focused and make the most of your day!"
+          },
+          {
+            "answer": "Thank you, have a bright and cheerful morning!"
+          },
+          {
+            "answer": "Have a day filled with new opportunities and success!"
+          },
+          {
+            "answer": "Good morning, may your day be filled with blessings!"
+          },
+          {
+            "answer": "Wishing you a morning filled with creativity and inspiration!"
+          },
+          {
+            "answer": "Hello, have a fantastic and energetic morning!"
+          },
+          {
+            "answer": "Good morning, stay positive and spread kindness!"
+          },
+          {
+            "answer": "Thank you, have a bright and exciting morning!"
+          },
+          {
+            "answer": "Have a day filled with positivity and optimism!"
+          },
+          {
+            "answer": "Good morning, stay focused and determined!"
+          },
+          {
+            "answer": "Thank you, have a productive and successful morning!"
+          },
+          {
+            "answer": "Have a day filled with love and happiness!"
+          },
+          {
+            "answer": "Good morning, may your day be filled with blessings and laughter!"
+          },
+          {
+            "answer": "Thank you, have a wonderful and inspiring morning!"
+          },
+          {
+            "answer": "Wishing you a morning filled with positivity and joy!"
+          },
+          {
+            "answer": "Hello, have a great and motivated morning!"
+          },
+          {
+            "answer": "Good morning, stay positive and embrace new challenges!"
+          },
+          {
+            "answer": "Thank you, have a fabulous and creative morning!"
+          },
+          {
+            "answer": "Have a day filled with positivity and gratitude!"
+          },
+          {
+            "answer": "Good morning, may your day be full of positivity and success!"
+          },
+          {
+            "answer": "Thank you, have a beautiful and peaceful morning!"
+          },
+          {
+            "answer": "Wishing you a morning filled with creativity and enthusiasm!"
+          },
+          {
+            "answer": "Hello, have a fantastic and optimistic morning!"
           }
         ],
         "greeting.casual": [
@@ -3384,6 +2351,26 @@
           },
           {
             "answer": "Don't worry. I'm here to help with anything you need."
+          }
+        ],
+        "greeting.pidgin": [
+          {
+            "answer": "i Mount"
+          },
+          {
+            "answer": "i Just Dey"
+          },
+          {
+            "answer": "Wetin I go Do For You?"
+          },
+          {
+            "answer": "How Your Side?"
+          },
+          {
+            "answer": "I dey, Wida"
+          },
+          {
+            "answer": "I dey alright, Tell me Wetin You want Make I do For You"
           }
         ]
       }

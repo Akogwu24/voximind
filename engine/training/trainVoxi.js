@@ -25,6 +25,7 @@ const fallback = require("../../fallback/fallback")
 const morningGreeting = require("../../intents/greetings/morning/morning")
 const casualGreeting = require("../../intents/greetings/casual/casualGreetings")
 const farewellGreetings = require("../../intents/greetings/farewell/farewellGreetings")
+const pidginGreeting = require("../../intents/greetings/pidgin/pidgin")
 
 morningGreeting.forEach(greeting => {
     
@@ -39,6 +40,11 @@ farewellGreetings.forEach(greeting => {
     voxi.addDocument(greeting.language,greeting.utterance,greeting.intent)
 })
 
+
+pidginGreeting.forEach(greeting => {
+    
+    voxi.addDocument(greeting.language, greeting.utterance, greeting.intent)
+})
 
 
 
@@ -56,8 +62,7 @@ farewellGreetings.forEach(greeting => {
 const morningReplies = require("../../intents/greetings/morning/morningReplies")
 const casualResponse = require("../../intents/greetings/casual/casualResponse")
 const farewellResponse = require("../../intents/greetings/farewell/farewellResponse")
-
-
+const pidginResponse = require("../../intents/greetings/pidgin/pidginResponse")
 
 morningReplies.forEach(morningreply => {
     voxi.addAnswer(morningreply.language,morningreply.intent, morningreply.utterance)
@@ -71,7 +76,9 @@ farewellResponse.forEach(farewellReply => {
      voxi.addAnswer(farewellReply.language,farewellReply.intent, farewellReply.utterance)
 })
 
-
+pidginResponse.forEach(pidginReply => {
+    voxi.addAnswer(pidginReply.language,pidginReply.intent, pidginReply.utterance)
+})
 
 
 
