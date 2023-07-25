@@ -39,7 +39,14 @@ router.post("/message/new", async (request, response) => {
 
 })
 
+router.get("/messages", async (request, response) => {
+    
+    const user = "collinsadi"
 
+    const messages = await  Message.find({user})
+
+    response.json({messages})
+})
 
 
 

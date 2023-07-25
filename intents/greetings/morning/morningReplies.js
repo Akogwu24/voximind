@@ -1,7 +1,10 @@
 const intent = "greeting.morning"
 const english = require("../../../languages/english")
+const date = new Date().getHours()
 
-const morningReplies = [
+
+
+let morningReplies = [
   {
     intent: intent,
     utterance: "Good morning to you too!",
@@ -452,6 +455,24 @@ const morningReplies = [
     utterance: "Wishing you a morning filled with creativity and enthusiasm!",
     language: english,
   },
-];
+]
+
+
+if (date > 12) {
+  
+  morningReplies = [
+    {
+      intent: intent,
+      utterance: "It Is Past Morning Already",
+      language:english
+    },
+    {
+      intent: intent,
+      utterance: "Hey, It Is Past Morning, But Thanks, How May I Be Of Help Today?",
+      language:english
+    },
+  ]
+
+}
 
 module.exports = morningReplies

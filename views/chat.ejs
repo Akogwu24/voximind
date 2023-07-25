@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Voxi Chat Interface</title>
+  <title>Voxi Chat Bot</title>
    <style>
     *{
         box-sizing: border-box;
@@ -138,7 +138,16 @@
 
 <body>
    
+    <div class="bot-title" style="padding: 15px;" >
+        <h1 style="text-align: center;">Voxi</h1>
+        <p style="text-align: center;">A Sentiment Analysis, Natural Language Processing Intent Based Conversational AI</p>
+
+        <p style="color: red;text-align: center;">Voxi Might Produce Incorrect and Irrelevent Responses as it is Still in Traininig</p>
+    </div>
+
   <div class="chat-container">
+
+    
     <div class="chat-bubble bot-bubble">
       <span class="sentiment-indicator positive">Positive</span>
       <p>Hello! I'm Voxi, your friendly chatbot. How can I assist you today?</p>
@@ -173,11 +182,13 @@
             chatBubble.appendChild(sentimentIndicator);
             chatBubble.appendChild(messageContent);
             chatContainer.appendChild(chatBubble);
-            chatContainer.scrollTop = chatContainer.scrollHeight;
+            window.scrollTop = chatContainer.scrollHeight;
+           
         }
 
     const sendMessage = async ()=>{
 
+       
         const message = document.getElementById("user-message")
 
         const response = await fetch("/message/new", {
@@ -196,8 +207,42 @@
 
         // Add bot message
         addChatBubble(data.botMessage.sender, data.botMessage.message, data.botMessage.negative);
+        document.getElementById("user-message").value = ""
 
 
     }
+
+
+    window.addEventListener("keypress",(e)=>{
+        if(e.key === "Enter"){
+            sendMessage()
+        }
+    })
+
+
+    const getMessages = async ()=>{
+
+          const response = await fetch("/messages", {
+            method:"GET",
+            headers:{
+                "content-type":"application/json"
+            }
+        })
+
+
+        const data = await response.json()
+
+        data.messages.forEach(x => {
+
+            addChatBubble(x.sender, x.message, x.negative);
+            
+        });
+
+        console.log(data)
+        console.log(data.messages.flatMap(x=> x.message))
+
+    }
+
+    getMessages()
 
 </script>
