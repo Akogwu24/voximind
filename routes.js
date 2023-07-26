@@ -48,6 +48,10 @@ router.get("/messages", async (request, response) => {
     response.json({messages})
 })
 
+router.get("/review", (request, response) => {
 
+    response.render("review")
+
+})
 
 module.exports = router

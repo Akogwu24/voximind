@@ -163,6 +163,9 @@
 
 </html>
 
+<!-- <script async src="https://cse.google.com/cse.js?cx=b4786faf4fad04a20">
+</script>
+<div class="gcse-search"></div> -->
 <script>
 
      function addChatBubble(sender, message, sentiment) {
@@ -244,5 +247,30 @@
     }
 
     getMessages()
+
+
+    const googleTest = async ()=>{
+
+        const url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyDKF9rRnUhAZgGCb-i4QCOT037FoM_HvyA&cx=b4786faf4fad04a20&q=collins adi"
+
+        const newurl = "https://enterpriseknowledgegraph.googleapis.com/v1/projects/voxi-394000/locations/global/publicKnowledgeGraphEntities:Search?query=davido&limit=20"
+
+          const response = await fetch(newurl, {
+            method:"GET",
+            headers:{
+                "content-type":"application/json"
+            }
+        })
+
+
+        const data = await response.json()
+
+        console.log(data)
+
+    }
+
+
+    googleTest()
+
 
 </script>
