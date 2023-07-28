@@ -47,6 +47,15 @@ pidginGreeting.forEach(greeting => {
 })
 
 
+/**
+ * Training to feelings
+ */
+
+const personalFeelings = require("../../intents/feeling/personal/personalFeeling")
+
+personalFeelings.forEach(feeling => {
+    voxi.addDocument(feeling.language, feeling.utterance, feeling.intent)
+})
 
 
 
@@ -80,9 +89,16 @@ pidginResponse.forEach(pidginReply => {
     voxi.addAnswer(pidginReply.language,pidginReply.intent, pidginReply.utterance)
 })
 
+/**
+ * coresponding replies for feelings
+ */
+
+const personalResponse = require("../../intents/feeling/personal/personalResponse")
 
 
-
+personalResponse.forEach(personalReply => {
+    voxi.addAnswer(personalReply.language, personalReply.intent, personalReply.utterance)
+})
 
 
 

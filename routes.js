@@ -20,7 +20,16 @@ router.post("/message/new", async (request, response) => {
             return
         }
         
-        const processMessage = await sanitizeMessage(message)
+        let processMessage = await sanitizeMessage(message)
+
+        if (processMessage.score !== 1) {
+            
+           processMessage.answer = null
+        }
+        // if (processMessage.classifications["score"] !== 1) {
+            
+        //    processMessage = null
+        // }
 
         console.log(processMessage)
         

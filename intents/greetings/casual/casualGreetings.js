@@ -179,6 +179,11 @@ const casualGreeting = [
   },
   {
     intent: intent,
+    utterance: "whats good",
+    language: english,
+  },
+  {
+    intent: intent,
     utterance: "Hi, what's cooking good looking?",
     language: english,
   },

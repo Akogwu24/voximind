@@ -17,11 +17,6 @@ const pidginGreeting = [
     },
     {
         intent: intent,
-        utterance: "who goes",
-        language: english
-    },
-    {
-        intent: intent,
         utterance: "dieit",
         language: english
     },
